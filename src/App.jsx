@@ -1,13 +1,16 @@
 
 import './App.css'
+import Navbar from './components/Navbar.jsx'
+import Hero from './components/Hero.jsx'
 
-function App() {
+const App = ()  =>{
 
 
   return (
-    <>
-     <img  className="flex relative align-middle w-[300px]" src="/src/assets/illustration.svg" alt="Illustration" />
-    </>
+    <main className="App">
+        <Navbar />
+        <Hero />
+    </main>
   )
 }
 
