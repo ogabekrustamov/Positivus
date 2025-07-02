@@ -18,7 +18,7 @@
 // export default Hero
 
 import { useEffect, useState,} from "react";
-
+import FadeInSection from './FadeInSection';
 
 
 
@@ -47,13 +47,17 @@ const Hero = () => {
         setTimeout(() => {
             setShowItems((prev) => [...prev, "image"]);
         }, 800);
+
+        setTimeout(() => {
+            setShowItems((prev) => [...prev, "container"]);
+        }, 1000);
     }, []);
 
     return (
-        <div className="w-[1300px] h-[800px]  mt-[150px]   ">
+        <div className="w-full h-[800px]  mt-[150px]   ">
             {/* Text Side */}
 
-            <div className="w-[1300px] h-[500px] bg-white flex flex-row  mt-17 px-10 justify-between max-lg:flex-col max-lg:items-center max-lg:gap-[50px;] max-lg:h-[950px] max-sm:h-[800px] ">
+            <div className="w-full h-[500px] bg-white flex flex-row  mt-17 px-10 gap-15 max-lg:flex-col max-lg:items-center max-lg:gap-[50px;] max-lg:h-[950px] max-sm:h-[800px] ">
                 <div className="w-[535px] h-[515px] bg-white flex flex-col  gap-[35px] max-sm:w-[360px]  ">
                     <div
                         className={`text-[50px] font-semibold transition-all duration-700 ease-out transform
@@ -90,8 +94,8 @@ const Hero = () => {
                 </div>
             </div>
 
-
-                        <div className="
+            <FadeInSection direction="up">
+                <div  className={` 
               w-full mt-[100px]
               filter grayscale
               flex flex-row justify-around
@@ -99,29 +103,27 @@ const Hero = () => {
               max-lg:gap-[40px] max-lg:w-[600px] max-lg:h-[150px]
               max-sm:w-[360px] max-sm:grid-cols-2 max-sm:grid-rows-3
               mx-auto
-            ">
-                <div className="w-[173px] h-[50px] flex justify-center items-center">
-                    <img src="/src/assets/Company_logo.svg" alt="logo 1"/>
+              `}>
+                    <div className="w-[173px] h-[50px] flex justify-center items-center">
+                        <img src="/src/assets/Company_logo.svg" alt="logo 1"/>
+                    </div>
+                    <div className="w-[173px] h-[50px] flex  justify-center items-center">
+                        <img src="/src/assets/Company_logo_(7).svg" alt="logo 2"/>
+                    </div>
+                    <div className="w-[173px] h-[50px] flex  justify-center items-center">
+                        <img src="/src/assets/Company_logo_(8).svg" alt="logo 3"/>
+                    </div>
+                    <div className="w-[173px] h-[50px] flex  justify-center items-center">
+                        <img src="/src/assets/Company_logo_(9).svg" alt="logo 4"/>
+                    </div>
+                    <div className="w-[173px] h-[50px] flex  justify-center items-center">
+                        <img src="/src/assets/Company_logo_(10).svg" alt="logo 5"/>
+                    </div>
+                    <div className="w-[173px] h-[50px] flex justify-center items-center">
+                        <img src="/src/assets/Company_logo_(11).svg" alt="logo 6"/>
+                    </div>
                 </div>
-                <div className="w-[173px] h-[50px] flex  justify-center items-center">
-                    <img src="/src/assets/Company_logo_(7).svg" alt="logo 2"/>
-                </div>
-                <div className="w-[173px] h-[50px] flex  justify-center items-center">
-                    <img src="/src/assets/Company_logo_(8).svg" alt="logo 3"/>
-                </div>
-                <div className="w-[173px] h-[50px] flex  justify-center items-center">
-                    <img src="/src/assets/Company_logo_(9).svg" alt="logo 4"/>
-                </div>
-                <div className="w-[173px] h-[50px] flex  justify-center items-center">
-                    <img src="/src/assets/Company_logo_(10).svg" alt="logo 5"/>
-                </div>
-                <div className="w-[173px] h-[50px] flex justify-center items-center">
-                    <img src="/src/assets/Company_logo_(11).svg" alt="logo 6"/>
-                </div>
-            </div>
-
-
-
+            </FadeInSection>
 
 
 

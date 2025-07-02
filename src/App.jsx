@@ -2,7 +2,7 @@
 import './App.css'
 import Navbar from './Components/Navbar.jsx'
 import Hero from './Components/Hero.jsx'
-import Second from "./Components/Second.jsx";
+import Services from "./Components/Services.jsx";
 
 const App = ()  =>{
 
@@ -11,7 +11,7 @@ const App = ()  =>{
     <main className="App">
         <Navbar />
         <Hero />
-        <Second />
+        <Services />
     </main>
   )
 }
