@@ -1,5 +1,6 @@
 import {navlinks} from '../../Constants/index.js'
 
+import logo from '../assets/Icon.svg';
 
 
 // const Navbar = () => {
@@ -139,7 +140,7 @@ const Navbar = () => {
                 <div
                     className={`flex items-center gap-2 transition-all duration-700 ease-out transform 
             ${showItems.includes("logo") ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-5"}`}>
-                    <img src="/src/assets/Icon.svg" className="w-[36px] h-[36px]" alt="logo" />
+                    <img src={logo} className="w-[36px] h-[36px]" alt="logo" />
                     <p className="text-[28px] sm:text-[32px] font-bold">Positivus</p>
                 </div>
 

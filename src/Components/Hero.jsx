@@ -17,6 +17,15 @@
 // }
 // export default Hero
 
+import Illustration from '../assets/Illustration.svg';
+import amazon from '../assets/amazon.svg';
+import dribble from '../assets/dribble.svg';
+import hubspot from'../assets/hubspot.svg';
+import notion from '../assets/notion.svg';
+import netflix from '../assets/netflix.svg';
+import zoom from '../assets/zoom.svg';
+
+
 import { useEffect, useState,} from "react";
 import FadeInSection from './FadeInSection';
 
@@ -87,7 +96,7 @@ const Hero = () => {
                     ${showItems.includes("image") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}  max-sm:w-[360px] max-sm:h-[300px] max-sm:lg-[60px] max-lg:w-[500px] max-lg:h-[400px] `}
                 >
                     <img
-                        src="/src/assets/Illustration.svg"
+                        src={Illustration}
                         className="w-[550px] h-[515px] max-sm:w-[360px] max-sm:h-[300px]"
                         alt="Illustration"
                     />
@@ -105,22 +114,22 @@ const Hero = () => {
               mx-auto
               `}>
                     <div className="w-[173px] h-[50px] flex justify-center items-center">
-                        <img src="/src/assets/Company_logo.svg" alt="logo 1"/>
+                        <img src={amazon} alt="logo1"/>
                     </div>
                     <div className="w-[173px] h-[50px] flex  justify-center items-center">
-                        <img src="/src/assets/Company_logo_(7).svg" alt="logo 2"/>
+                        <img src={dribble} alt="logo2"/>
                     </div>
                     <div className="w-[173px] h-[50px] flex  justify-center items-center">
-                        <img src="/src/assets/Company_logo_(8).svg" alt="logo 3"/>
+                        <img src={hubspot} alt="logo3"/>
                     </div>
                     <div className="w-[173px] h-[50px] flex  justify-center items-center">
-                        <img src="/src/assets/Company_logo_(9).svg" alt="logo 4"/>
+                        <img src={netflix} alt="logo4"/>
                     </div>
                     <div className="w-[173px] h-[50px] flex  justify-center items-center">
-                        <img src="/src/assets/Company_logo_(10).svg" alt="logo 5"/>
+                        <img src={notion} alt="logo5"/>
                     </div>
                     <div className="w-[173px] h-[50px] flex justify-center items-center">
-                        <img src="/src/assets/Company_logo_(11).svg" alt="logo 6"/>
+                        <img src={zoom} alt="logo6"/>
                     </div>
                 </div>
             </FadeInSection>
