@@ -63,7 +63,7 @@ const Hero = () => {
     }, []);
 
     return (
-        <div className="w-full h-[800px]  mt-[150px]   ">
+        <div className="w-full h-[800px]  mt-[150px]  max-lg:h-[1300px] ">
             {/* Text Side */}
 
             <div className="w-full h-[500px] bg-white flex flex-row  mt-17 px-10 gap-15 max-lg:flex-col max-lg:items-center max-lg:gap-[50px;] max-lg:h-[950px] max-sm:h-[800px] ">
