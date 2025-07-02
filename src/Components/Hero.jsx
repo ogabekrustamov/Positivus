@@ -101,22 +101,22 @@ const Hero = () => {
               mx-auto
             ">
                 <div className="w-[173px] h-[50px] flex justify-center items-center">
-                    <img src="/src/assets/Company logo.svg"  alt="logo 1"/>
+                    <img src="/src/assets/Company_logo.svg" alt="logo 1"/>
                 </div>
                 <div className="w-[173px] h-[50px] flex  justify-center items-center">
-                    <img src="/src/assets/Company logo (7).svg"  alt="logo 2"/>
+                    <img src="/src/assets/Company_logo_(7).svg" alt="logo 2"/>
                 </div>
                 <div className="w-[173px] h-[50px] flex  justify-center items-center">
-                    <img src="/src/assets/Company logo (8).svg"  alt="logo 3"/>
+                    <img src="/src/assets/Company_logo_(8).svg" alt="logo 3"/>
                 </div>
                 <div className="w-[173px] h-[50px] flex  justify-center items-center">
-                    <img src="/src/assets/Company logo (9).svg"  alt="logo 4"/>
+                    <img src="/src/assets/Company_logo_(9).svg" alt="logo 4"/>
                 </div>
                 <div className="w-[173px] h-[50px] flex  justify-center items-center">
-                    <img src="/src/assets/Company logo (10).svg"  alt="logo 5"/>
+                    <img src="/src/assets/Company_logo_(10).svg" alt="logo 5"/>
                 </div>
                 <div className="w-[173px] h-[50px] flex justify-center items-center">
-                    <img src="/src/assets/Company logo (11).svg"  alt="logo 6"/>
+                    <img src="/src/assets/Company_logo_(11).svg" alt="logo 6"/>
                 </div>
             </div>
 
