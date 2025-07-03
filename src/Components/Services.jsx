@@ -25,7 +25,7 @@ const  Services = () => {
     }, []);
 
     return (
-        <div className="h-[1700px]">
+        <div className="h-[1700px] max-lg:h-[2650px] ">
             <div data-aos="fade-up" className="flex max-lg:justify-center max-sm:justify-center ">
                 <span className="bg-[rgb(207,255,113)] text-[30px] w-[178px] h-[51px] flex justify-center font-[500] mr-5 max-sm:text-[17px] max-sm:w-[85px] max-sm:h-[45px] max-sm:items-center"><h1>Services</h1></span>
                 <div className="w-[580px] h-[46px] max-lg:w-[540px] max-sm:w-[320px] max-sm:h-[80px] max-sm:text-[14px] transition-all duration-700 ease-out transform">At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</div>

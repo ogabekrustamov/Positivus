@@ -1,21 +1,4 @@
 
-//
-// const Hero = () =>{
-//     return (
-//         <div className="w-full h-[515px] bg-white flex flex-row gap-[180px] mt-17">
-//             <div className="w-[535px] h-[515px] bg-white flex flex-col gap-[35px] ">
-//                 <div className="text-[50px] ">Navigating the digital landscape for success</div>
-//                 <div className="text-[20px]">Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</div>
-//                 <button className="w-[264px] h-[68px] text-white bg-black text-[20px] rounded-[14px]">Book a consultation</button>
-//             </div>
-//             <div className="w-550px h-515px inline-flex">
-//                 <img src="/src/assets/Illustration.svg" className="w-[600px] h-[515px]" alt=""/>
-//             </div>
-//
-//         </div>
-//     )
-// }
-// export default Hero
 
 import Illustration from '../assets/Illustration.svg';
 import amazon from '../assets/amazon.svg';
