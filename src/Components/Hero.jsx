@@ -63,7 +63,7 @@ const Hero = () => {
     }, []);
 
     return (
-        <div className="w-full h-[800px]  mt-[150px]  max-lg:h-[1300px] ">
+        <div className="w-full h-[800px]  mt-[150px]  max-lg:h-[1300px] max-sm:h-[1150px]">
             {/* Text Side */}
 
             <div className="w-full h-[500px] bg-white flex flex-row  mt-17 px-10 gap-15 max-lg:flex-col max-lg:items-center max-lg:gap-[50px;] max-lg:h-[950px] max-sm:h-[800px] ">
@@ -84,7 +84,7 @@ const Hero = () => {
 
                     <button
                         className={`w-[264px] h-[68px] text-white bg-black text-[20px] rounded-[14px] transition-all duration-700 ease-out transform
-                        ${showItems.includes("button") ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-5"} max-sm:w-[280px] max-sm:h-[48px]`}
+                        ${showItems.includes("button") ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-5"} max-sm:text-[18px] max-sm:w-[250px] max-sm:h-[48px]`}
                     >
                         Book a consultation
                     </button>
