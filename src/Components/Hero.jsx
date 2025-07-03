@@ -27,7 +27,7 @@ import zoom from '../assets/zoom.svg';
 
 
 import { useEffect, useState,} from "react";
-import FadeInSection from './FadeInSection';
+
 
 
 
@@ -103,8 +103,8 @@ const Hero = () => {
                 </div>
             </div>
 
-            <FadeInSection direction="up">
-                <div  className={` 
+
+                <div data-aos="fade-up" className={` 
               w-full mt-[100px]
               filter grayscale
               flex flex-row justify-around
@@ -132,7 +132,6 @@ const Hero = () => {
                         <img src={zoom} alt="logo6"/>
                     </div>
                 </div>
-            </FadeInSection>
 
 
 
