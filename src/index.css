@@ -7,3 +7,26 @@ body{
     font-family: 'Space Grotesk', sans-serif;
 }
 /* styles.css yoki tailwind.config.css yoki index.css */
+
+.custom-swiper .swiper-button-next,
+.custom-swiper .swiper-button-prev {
+    color: #22c55e;
+    padding: 12px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.custom-swiper .swiper-button-next::after,
+.custom-swiper .swiper-button-prev::after {
+    font-size: 26px;
+}
+
+.custom-swiper .swiper-pagination-bullet {
+    background-color: #a3a3a3; /* kul rang */
+    opacity: 1;
+}
+
+.custom-swiper .swiper-pagination-bullet-active {
+    background-color: #10b981; /* yashil rang */
+}
