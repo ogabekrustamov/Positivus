@@ -12,7 +12,7 @@ import React from "react";
 const Team = () => {
 
     return (
-        <div>
+        <div className="flex flex-col max-lg:items-center">
             <div data-aos="fade-up" className="flex max-lg:justify-center max-sm:justify-center ">
                 <span
                     className="bg-[rgb(207,255,113)] text-[30px]  h-[51px] flex justify-center font-[500] mr-5 max-sm:text-[17px]  max-sm:h-[45px] max-sm:items-center"><h1>Team </h1></span>
@@ -22,7 +22,7 @@ const Team = () => {
                 </div>
             </div>
 
-            <div className="grid grid-cols-3 grid-row-2 gap-[40px] mt-[50px] max-lg:grid-cols-2 max-lg:grid-rows-3 max-sm:flex flex-col items-center">
+            <div className="grid grid-cols-3 grid-row-2 gap-[40px] mt-[50px] max-lg:grid-cols-2 max-lg:grid-rows-3  max-lg:gap-[40px] max-sm:flex max-sm:flex-col items-center">
                 <div data-aos="fade-up" className="w-[387px] h-[331px] p-[40px] flex flex-col border-[1px] border-black border-b-[6px] rounded-[45px] items-center">
                     <div className="flex gap-[15px] pb-[20px] border-b-[1px] border-black">
                         <img src={firstp} className="w-[102px] h-[102px]" alt=""/>

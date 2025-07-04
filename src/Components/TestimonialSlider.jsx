@@ -61,7 +61,7 @@ export default function TestimonialSlider() {
             >
                 {testimonials.map((item, index) => (
                     <SwiperSlide key={index}>
-                        <div className="border border-[rgb(207,255,113)] text-white rounded-[45px] p-8 relative bg-[rgb(25,26,35)] w-full max-w-[606px] h-[250px] mx-auto">
+                        <div className="border border-[rgb(207,255,113)] text-white max-sm:rounded-[30px] rounded-[45px] p-8 relative bg-[rgb(25,26,35)] w-full max-w-[606px] h-[250px] max-lg:h-[200px] max-sm:h-[250px] max-sm:max-w-[500px] max-lg:max-w-[450px] mx-auto">
                             <p className="text-[16px] mb-4">“{item.text}”</p>
                             <div className="absolute bottom-[-12px] left-1/2 transform -translate-x-1/2 w-5 h-5 bg-[#1A1A1A] border-[rgb(207,255,113)] border-b border-l rotate-45 z-10" />
                             <div className="mt-6">
