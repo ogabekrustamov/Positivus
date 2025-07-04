@@ -31,7 +31,7 @@ const AccordionItem = ({ number, title, content, isOpen, onClick }) => {
                         transition={{ duration: 0.3 }}
                         className="overflow-hidden"
                     >
-                        <div className=" px-6 pb-6 pt-2 border-t border-black text-sm text-gray-800 leading-relaxed ">
+                        <div data-aos="fade-up" className=" px-6 pb-6 pt-2 border-t border-black text-sm text-gray-800 leading-relaxed ">
                             {content}
                         </div>
                     </motion.div>

@@ -24,7 +24,7 @@ const WorkingProcess = () => {
             </div>
 
 
-            <div className="min-h-screen bg-white ">
+            <div className=" bg-white mt-[40px]">
                 <AccordionList />
             </div>
 
