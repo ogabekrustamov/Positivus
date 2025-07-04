@@ -6,6 +6,7 @@ import Services from "./Components/Services.jsx";
 import Studies from "./Components/Studies.jsx";
 import WorkingProcess from "./Components/WorkingProcess.jsx";
 import Team from "./Components/Team.jsx"
+import Testimonials from "./Components/Testimonials.jsx";
 
 
 
@@ -20,6 +21,7 @@ const App = ()  =>{
         <Studies />
         <WorkingProcess />
         <Team />
+        <Testimonials />
     </main>
   )
 }
