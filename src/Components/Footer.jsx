@@ -72,7 +72,7 @@ const Footer = () => {
 
                 {/* Bottom Info */}
                 <div className="flex justify-between items-center text-sm flex-col md:flex-row gap-4">
-                    <p>© 2025 Positivus. All Rights Reserved.</p>
+                    <p>© 2025 Positivus. All Rights reserved.</p>
                     <a href="#" className="underline underline-offset-2">
                         Privacy Policy
                     </a>
