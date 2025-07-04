@@ -8,6 +8,7 @@ import WorkingProcess from "./Components/WorkingProcess.jsx";
 import Team from "./Components/Team.jsx"
 import Testimonials from "./Components/Testimonials.jsx";
 import ContactUs from "./Components/ContactUs.jsx";
+import Footer from "./Components/Footer.jsx";
 
 
 
@@ -24,6 +25,7 @@ const App = ()  =>{
         <Team />
         <Testimonials />
         <ContactUs />
+        <Footer />
     </main>
   )
 }
