@@ -3,8 +3,8 @@ import React from "react";
 const Aboutnumber = () => {
 
     return (
-        <div className="flex flex-col max-lg:justify-center max-sm:justify-center  mt-[60px]">
-            <div data-aos="fade-up" className="flex max-lg:justify-center max-sm:justify-center ">
+        <div className="flex flex-col max-lg:justify-center max-lg:items-center max-sm:justify-center  mt-[60px]">
+            <div className="flex max-lg:justify-center max-sm:justify-center ">
                 <span
                     className="bg-[rgb(207,255,113)] text-[30px]  h-[51px] flex justify-center font-[500] mr-5 max-sm:text-[17px]  max-sm:h-[45px] max-sm:items-center"><h1>Team </h1></span>
                 <div
@@ -12,6 +12,41 @@ const Aboutnumber = () => {
                     Meet the skilled and experienced team behind our successful digital marketing strategies
                 </div>
             </div>
+            <div className="w-[1240px] flex mt-[60px] flex-wrap justify-evenly max-sm:w-[500px] max-lg:w-[800px]">
+                <div className="w-[248px] max-sm:w-[200px] h-[80px] border-t-[2px] border-black flex flex-col items-center justify-center rounded-[16px]">
+                    <div>
+                        <h1>8+</h1>
+                        <h4>Experience</h4>
+                    </div>
+                </div>
+                <div className="w-[248px] max-sm:w-[200px] h-[80px] border-t-[2px] border-black flex flex-col items-center justify-center rounded-[16px]">
+                    <div>
+                        <h1>8+</h1>
+                        <h4>Experience</h4>
+                    </div>
+                </div>
+                <div className="w-[248px] max-sm:w-[200px] h-[80px] border-t-[2px] border-black flex flex-col items-center justify-center rounded-[16px]">
+                    <div>
+                        <h1>8+</h1>
+                        <h4>Experience</h4>
+                    </div>
+                </div>
+                <div className="w-[248px] max-sm:w-[200px] h-[80px] border-t-[2px] border-black flex flex-col items-center justify-center rounded-[16px]">
+                    <div>
+                        <h1>8+</h1>
+                        <h4>Experience</h4>
+                    </div>
+                </div>
+                <div className="w-[248px] max-sm:w-[200px] h-[80px] border-t-[2px] border-black flex flex-col items-center justify-center rounded-[16px]">
+                    <div>
+                        <h1>8+</h1>
+                        <h4>Experience</h4>
+                    </div>
+                </div>
+
+            </div>
+
+
         </div>
     )
 }
