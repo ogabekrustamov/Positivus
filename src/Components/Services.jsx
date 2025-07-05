@@ -31,7 +31,7 @@ const  Services = () => {
                 <div className="w-[580px] h-[46px] max-lg:w-[540px] max-sm:w-[320px] max-sm:h-[80px] max-sm:text-[14px] transition-all duration-700 ease-out transform">At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</div>
             </div>
             <div  className="grid grid-rows-3 grid-cols-2 gap-[40px] pt-[40px] max-lg:flex max-lg:flex-col max-lg:items-center ">
-                <div data-aos="fade-up" className="w-[600px] h-[310px] bg-[rgb(243,243,243)] rounded-[45px]  border-[1px] border-b-6 p-[50px] max-sm:w-[410px] max-sm:h-[220px] max-sm:p-[20px] max-sm:rounded-[30px] ">
+                <div data-aos="fade-up" className="w-[600px] h-[310px] bg-[rgb(243,243,243)] rounded-[45px]  border-[1px] border-b-6 p-[50px] max-sm:w-[410px] max-sm:h-[220px] max-sm:p-[20px] max-sm:rounded-[30px] transition-all ease-in-out duration-300 hover:scale-105 ">
                     <div className=" inline-block">
                         <span className="bg-[rgb(207,255,113)]  rounded-[5px] text-[28px] leading-tight max-sm:text-[23px]">Search engine</span><br/>
                         <span className="bg-[rgb(207,255,113)]  rounded-[5px] text-[28px] leading-tight max-sm:text-[23px]">optimization</span>
@@ -46,7 +46,7 @@ const  Services = () => {
                     </div>
                 </div>
 
-                <div data-aos="fade-up" className="w-[600px] h-[310px] bg-[rgb(207,255,113)] rounded-[45px]  border-[1px] border-b-6 p-[50px] max-sm:w-[410px] max-sm:h-[220px] max-sm:p-[20px] max-sm:rounded-[30px]">
+                <div data-aos="fade-up" className="w-[600px] h-[310px] bg-[rgb(207,255,113)] rounded-[45px]  border-[1px] border-b-6 p-[50px] max-sm:w-[410px] max-sm:h-[220px] max-sm:p-[20px] max-sm:rounded-[30px] transition-all ease-in-out duration-300 hover:scale-105">
                     <div className=" inline-block">
                         <span className="bg-[rgb(243,243,243)]  rounded-[5px] text-[28px] leading-tight max-sm:text-[23px]">Pay-per-click</span><br/>
                         <span className="bg-[rgb(243,243,243)]  rounded-[5px] text-[28px] leading-tight max-sm:text-[23px]">advertising</span>
@@ -60,7 +60,7 @@ const  Services = () => {
                     </div>
                 </div>
 
-                <div data-aos="fade-up" className="w-[600px] h-[310px] bg-black rounded-[45px]  border-[1px] border-b-6 p-[50px] max-sm:w-[410px] max-sm:h-[220px] max-sm:p-[20px] max-sm:rounded-[30px]">
+                <div data-aos="fade-up" className="w-[600px] h-[310px] bg-black rounded-[45px]  border-[1px] border-b-6 p-[50px] max-sm:w-[410px] max-sm:h-[220px] max-sm:p-[20px] max-sm:rounded-[30px] transition-all ease-in-out duration-300 hover:scale-105">
                     <div className=" inline-block">
                         <span className="bg-[rgb(243,243,243)]  rounded-[5px] text-[28px] leading-tight max-sm:text-[23px]">Social Media</span><br/>
                         <span className="bg-[rgb(243,243,243)]  rounded-[5px] text-[28px] leading-tight max-sm:text-[23px]">Marketing</span>
@@ -74,7 +74,7 @@ const  Services = () => {
                     </div>
                 </div>
 
-                <div data-aos="fade-up" className="w-[600px] h-[310px] bg-[rgb(243,243,243)] rounded-[45px]  border-[1px] border-b-6 p-[50px] max-sm:w-[410px] max-sm:h-[220px] max-sm:p-[20px] max-sm:rounded-[30px]">
+                <div data-aos="fade-up" className="w-[600px] h-[310px] bg-[rgb(243,243,243)] rounded-[45px]  border-[1px] border-b-6 p-[50px] max-sm:w-[410px] max-sm:h-[220px] max-sm:p-[20px] max-sm:rounded-[30px] transition-all ease-in-out duration-300 hover:scale-105">
                     <div className=" inline-block">
                         <span className="bg-[rgb(207,255,113)]  rounded-[5px] text-[28px] leading-tight max-sm:text-[23px]">Email</span><br/>
                         <span className="bg-[rgb(207,255,113)]  rounded-[5px] text-[28px] leading-tight max-sm:text-[23px]">Marketing</span>
@@ -88,7 +88,7 @@ const  Services = () => {
                     </div>
                 </div>
 
-                <div data-aos="fade-up" className="w-[600px] h-[310px] bg-[rgb(207,255,113)] rounded-[45px]  border-[1px] border-b-6 p-[50px] max-sm:w-[410px] max-sm:h-[220px] max-sm:p-[20px] max-sm:rounded-[30px]">
+                <div data-aos="fade-up" className="w-[600px] h-[310px] bg-[rgb(207,255,113)] rounded-[45px]  border-[1px] border-b-6 p-[50px] max-sm:w-[410px] max-sm:h-[220px] max-sm:p-[20px] max-sm:rounded-[30px] transition-all ease-in-out duration-300 hover:scale-105">
                     <div className=" inline-block">
                         <span className="bg-[rgb(243,243,243)]  rounded-[5px] text-[28px] leading-tight max-sm:text-[23px]">Content</span><br/>
                         <span className="bg-[rgb(243,243,243)]  rounded-[5px] text-[28px] leading-tight max-sm:text-[23px]">Creation</span>
@@ -102,7 +102,7 @@ const  Services = () => {
                     </div>
                 </div>
 
-                <div data-aos="fade-up" className="w-[600px] h-[310px] bg-black rounded-[45px]  border-[1px] border-b-6 p-[50px] max-sm:w-[410px] max-sm:h-[220px] max-sm:p-[20px] max-sm:rounded-[30px]">
+                <div data-aos="fade-up" className="w-[600px] h-[310px] bg-black rounded-[45px]  border-[1px] border-b-6 p-[50px] max-sm:w-[410px] max-sm:h-[220px] max-sm:p-[20px] max-sm:rounded-[30px] transition-all ease-in-out duration-300 hover:scale-105">
                     <div className=" inline-block">
                         <span className="bg-[rgb(207,255,113)]  rounded-[5px] text-[28px] leading-tight max-sm:text-[23px]">Analytics and</span><br/>
                         <span className="bg-[rgb(207,255,113)]  rounded-[5px] text-[28px] leading-tight max-sm:text-[23px]">Tracking</span>

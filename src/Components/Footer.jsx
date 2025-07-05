@@ -9,7 +9,7 @@ const Footer = () => {
 
         <div className="flex flex-col max-lg:items-center mt-[40px]">
             <footer className="bg-[rgb(25,26,35)] text-white py-12 px-6 md:px-20 rounded-t-[40px] max-lg:w-full max-sm:w-full max-sm:rounded-t-[0px] max-lg:rounded-t-[0px]">
-                <div className="flex flex-col max-lg:flex-row justify-between items-start max-lg:items-center mb-10 gap-10">
+                <div className="flex flex- row max-lg:flex-row justify-between items-start max-lg:items-center mb-10 gap-10">
                     {/* Left: Logo and Menu */}
                     <div className="space-y-5">
                         {/*<h1 className="text-2xl font-semibold">🌟 Positivus</h1>*/}

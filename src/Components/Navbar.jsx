@@ -1,13 +1,8 @@
-import {navlinks} from '../../Constants/index.js'
 
+import { navlinks } from '../../Constants/index.js'
 import logo from '../assets/Icon.svg';
-
-
-
-
+import { NavLink, Link } from 'react-router-dom';
 import { useEffect, useState } from "react";
-
-
 
 const Navbar = () => {
     const [showItems, setShowItems] = useState([]);
@@ -30,27 +25,40 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav className="w-full shadow-md fixed top-0 left-0  backdrop-blur bg-white/50 z-1">
-            <div className="max-w-[1340px] mx-auto px-4 sm:px-6 lg:px-8 h-[80px] flex items-center justify-between">
+        <nav className="w-full shadow-md fixed top-0 left-0 backdrop-blur bg-white/50 z-1 ">
+            <div className="max-w-[1340px] mx-auto px-4 sm:px-6 lg:px-8 h-[80px] flex items-center  justify-between">
 
-                {/* ✅ Logo */}
+                {/* Logo */}
                 <div
                     className={`flex items-center gap-2 transition-all duration-700 ease-out transform 
             ${showItems.includes("logo") ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-5"}`}>
-                    <img src={logo} className="w-[36px] h-[36px]" alt="logo" />
-                    <p className="text-[28px] sm:text-[32px] font-bold">Positivus</p>
+                    <Link to="/" className="flex items-center gap-2">
+                        <img src={logo} className="w-[36px] h-[36px]" alt="logo" />
+                        <p className="text-[28px] sm:text-[32px] font-bold">Positivus</p>
+                    </Link>
                 </div>
 
-                {/* ✅ Desktop menu */}
+                {/* Desktop menu */}
                 <ul className="hidden lg:flex items-center gap-8 text-[18px] font-light">
                     {navlinks.map((link, index) => (
                         <li key={link.id} className={`transition-all duration-500 ease-out transform
               ${showItems.includes(index) ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}>
-                            <a href={`#${link.id}`} className="text-black rounded-0.25 hover:bg-[rgb(207,255,113)]">
+
+                            <NavLink
+                                to={link.path}
+                                className={({ isActive }) =>
+                                    `px-3 py-1 rounded transition ${
+                                        isActive
+                                            ? "bg-[rgb(207,255,113)] text-black font-medium"
+                                            : "text-black hover:bg-[rgb(207,255,113)]"
+                                    }`
+                                }
+                            >
                                 {link.title}
-                            </a>
+                            </NavLink>
                         </li>
                     ))}
+
                     <li className={`transition-all duration-700 ease-out transform
             ${showItems.includes("button") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}>
                         <button className="px-4 py-2 border border-black rounded-2xl hover:bg-black hover:text-white transition">
@@ -78,19 +86,26 @@ const Navbar = () => {
                 </div>
             </div>
 
-            {/* ✅ Mobile dropdown menu */}
+            {/* Mobile dropdown menu */}
             {menuOpen && (
                 <div className="lg:hidden px-4 pt-4 pb-6 space-y-4 bg-white shadow-inner">
                     {navlinks.map((link) => (
-                        <a
+                        <NavLink
                             key={link.id}
-                            href={`#${link.id}`}
-                            className="block text-[18px] text-black hover:text-[rgb(207,255,113)]"
+                            to={link.path}
                             onClick={() => setMenuOpen(false)}
+                            className={({ isActive }) =>
+                                `block text-[18px] px-3 py-1 rounded ${
+                                    isActive
+                                        ? "bg-[rgb(207,255,113)] text-black font-medium"
+                                        : "text-black hover:bg-[rgb(207,255,113)]"
+                                }`
+                            }
                         >
                             {link.title}
-                        </a>
+                        </NavLink>
                     ))}
+
                     <button
                         className="mt-2 px-4 py-2 border border-black rounded-2xl hover:bg-black hover:text-white transition"
                         onClick={() => setMenuOpen(false)}
@@ -104,3 +119,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
