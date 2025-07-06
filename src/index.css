@@ -30,3 +30,7 @@ body{
 .custom-swiper .swiper-pagination-bullet-active {
     background-color: #10b981; /* yashil rang */
 }
+
+html {
+    scroll-behavior: smooth;
+}

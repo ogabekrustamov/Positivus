@@ -2,6 +2,7 @@
 import HeroAbout from "../SectionComponents/AboutUs/HeroAbout.jsx";
 import AboutNumber from "../SectionComponents/AboutUs/AboutNumber.jsx";
 import OurJourney from "../SectionComponents/AboutUs/OurJourney.jsx";
+import Values from "../SectionComponents/AboutUs/Values.jsx";
 // ✅ To‘g‘risi: default export qilish
 const AboutUsPage = () => {
     return (
@@ -10,6 +11,7 @@ const AboutUsPage = () => {
         <HeroAbout />
         <AboutNumber />
             <OurJourney />
+            <Values />
         </div>
     );
 };

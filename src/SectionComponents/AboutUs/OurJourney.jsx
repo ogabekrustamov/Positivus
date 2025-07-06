@@ -13,7 +13,7 @@ const OurJourney = () => {
                     Meet the skilled and experienced team behind our successful digital marketing strategies
                 </div>
             </div>
-            <div className="w-[1240px] h-[1200px] grid grid-cols-8 grid-rows-4 gap-[40px] mt-[140px] max-sm:mt-[70px] max-lg:flex max-lg:flex-col max-sm:h-[1550px] max-lg:h-[1600px] max-lg:items-start max-lg:w-[540px] max-sm:items-center" >
+            <div className="w-[1240px] h-[1200px] grid grid-cols-8 grid-rows-4 gap-[40px] mt-[140px] max-sm:mt-[70px] max-lg:flex max-lg:flex-col max-sm:h-[1550px] max-lg:h-[1600px] max-sm:w-[410px] max-lg:items-start max-lg:w-[540px] max-sm:items-center" >
                 <div data-aos="fade-right"  className="text-[50px] font-bold">
                     <h1>2019</h1>
                 </div>
