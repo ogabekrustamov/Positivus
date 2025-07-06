@@ -1,16 +1,21 @@
 
 
-import './App.css'
-import { Routes, Route } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { Routes, Route, useLocation } from 'react-router-dom';
 
-import Navbar from './Components/Navbar.jsx'
-import Footer from './Components/Footer.jsx'
+import AOS from 'aos';                // ✅ AOS JS import
+import 'aos/dist/aos.css';           // ✅ AOS CSS import
 
-import Hero from './Components/Hero.jsx'
+import './App.css';
+import Navbar from './Components/Navbar.jsx';
+import Footer from './Components/Footer.jsx';
+import ScrollToTop from './Components/ScrollToTop.jsx';
+
+import Hero from './Components/Hero.jsx';
 import Services from "./Components/Services.jsx";
 import Studies from "./Components/Studies.jsx";
 import WorkingProcess from "./Components/WorkingProcess.jsx";
-import Team from "./Components/Team.jsx"
+import Team from "./Components/Team.jsx";
 import Testimonials from "./Components/Testimonials.jsx";
 import ContactUs from "./Components/ContactUs.jsx";
 
@@ -21,12 +26,27 @@ import PricingPage from './Pages/PricingPage.jsx';
 import BlogPage from './Pages/BlogPage.jsx';
 
 const App = () => {
+    const location = useLocation();
+
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+    }, []);
+
+    useEffect(() => {
+        AOS.refresh();
+    }, [location.pathname]);
+
+
+
     return (
         <main className="App">
             <Navbar />
+            <ScrollToTop />
 
             <Routes>
-                {/* Bosh sahifa */}
                 <Route
                     path="/"
                     element={
@@ -42,7 +62,6 @@ const App = () => {
                     }
                 />
 
-                {/* Boshqa sahifalar */}
                 <Route path="/about" element={<AboutUsPage />} />
                 <Route path="/services" element={<ServicesPage />} />
                 <Route path="/use-cases" element={<UseCasePage />} />
@@ -52,8 +71,8 @@ const App = () => {
 
             <Footer />
         </main>
-    )
-}
+    );
+};
 
 export default App;
 
