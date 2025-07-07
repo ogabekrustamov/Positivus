@@ -9,7 +9,7 @@ import FullDiv from "../SectionComponents/AboutUs/FullDiv.jsx";
 const AboutUsPage = () => {
     return (
 
-        <div className="w-full flex flex-col items-center mt-[170px]">
+        <div className="w-full flex flex-col items-center max-sm:mt-[140px] mt-[170px]">
         <HeroAbout />
         <AboutNumber />
             <OurJourney />
