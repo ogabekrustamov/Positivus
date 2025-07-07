@@ -2,6 +2,7 @@ import React from "react";
 import innovation from '../../assets/innovation.svg';
 import calloboration from '../../assets/calloboration.svg';
 
+
 const Values = () => {
 
     return (
@@ -15,7 +16,7 @@ const Values = () => {
                     Meet the skilled and experienced team behind our successful digital marketing strategies
                 </div>
             </div>
-            <div className="grid grid-cols-2 grid-rows-2  gap-[40px] mt-[60px] max-lg:flex max-lg:flex-col max-sm:justify-center ">
+            <div className="grid grid-cols-2 grid-rows-2  gap-[40px] mt-[60px] max-lg:flex max-lg:flex-col max-sm:max-w-full ">
                 <div className="w-[600px] h-[310px] flex flex-col gap-[20px] border-[1px] rounded-[45px] max-sm:p-[30px] p-[45px] max-lg:order-1 max-sm:w-[410px]">
                     <div className="text-[28px] max-sm:text-[24px]">Client Succes first</div>
                     <div className="w-[250px] h-[1px]  max-sm:w-[350px]  bg-black"></div>
@@ -28,7 +29,7 @@ const Values = () => {
                         <div className="w-[250px] h-[1px] mb-[20px] max-sm:w-[350px] bg-black"></div>
                         <div className="text-[18px] max-sm:text-[16px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam esse facere minima molestiae  quos repellendus vero voluptates.</div>
                     </div>
-                    <div className="w-[50%] max-sm:w-full max-sm:ml-[140px] ">
+                    <div className="w-[50%] max-sm:w-full pl-[70px] ">
                         <img src={innovation} className="w-[210px]" alt=""/>
                     </div>
                 </div>
@@ -39,7 +40,7 @@ const Values = () => {
                         <div className="w-[250px] h-[1px] mb-[20px] max-sm:w-[350px] bg-black"></div>
                         <div className="text-[18px] max-sm:text-[16px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam esse facere minima molestiae  quos repellendus vero voluptates.</div>
                     </div>
-                    <div className="w-[50%] max-sm:w-full max-sm:ml-[140px] ">
+                    <div className="w-[50%] max-sm:w-full pl-[70px] ">
                         <img src={calloboration} className="w-[210px]" alt=""/>
                     </div>
                 </div>
@@ -51,6 +52,8 @@ const Values = () => {
                 </div>
 
             </div>
+
+
         </div>
     )
 };
