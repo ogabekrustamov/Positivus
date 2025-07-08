@@ -12,9 +12,9 @@ const WorkingProcess = () => {
 
 
     return (
-        <div className=" flex flex-col max-lg:items-center mb-[40px]">
+        <div className=" flex flex-col items-center lg:w-[90vw] max-w-[1240px] mx-auto mb-[40px]">
 
-            <div data-aos="fade-up" className="flex max-lg:justify-center max-sm:justify-center ">
+            <div data-aos="fade-up" className="flex max-lg:justify-center w-[90vw] max-w-[1240px]  ">
                 <span
                     className="bg-[rgb(207,255,113)] text-[30px]  h-[51px] flex justify-center font-[500] mr-5 max-sm:text-[17px]  max-sm:h-[45px] max-sm:items-center"><h1>Our Working Process </h1></span>
                 <div
@@ -24,7 +24,7 @@ const WorkingProcess = () => {
             </div>
 
 
-            <div className=" bg-white mt-[40px]">
+            <div className="  mt-[40px] lg:w-[90vw] max-w-[1240px] mx-auto ">
                 <AccordionList />
             </div>
 

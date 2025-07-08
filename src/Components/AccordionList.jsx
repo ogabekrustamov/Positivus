@@ -50,7 +50,7 @@ const AccordionList = () => {
     ];
 
     return (
-        <div data-aos="fade-up" className=" max-w-[1240px] max-lg:w-[600px] max-sm:w-[410px] ">
+        <div data-aos="fade-up" className=" w-full max-lg:w-[600px] max-sm:w-[410px] ">
             {items.map((item, index) => (
                 <AccordionItem
                     key={index}

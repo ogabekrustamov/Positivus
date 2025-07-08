@@ -6,7 +6,7 @@ const Studies = () => {
 
     return (
         <div className="max-lg:flex max-lg:flex-col max-lg:items-center mb-[40px]">
-            <div data-aos="fade-up" className="flex max-lg:justify-center max-sm:justify-center ">
+            <div data-aos="fade-up" className="flex max-lg:justify-center w-[90vw] max-w-[1240px] mx-auto max-sm:justify-center ">
                 <span
                     className="bg-[rgb(207,255,113)] text-[30px] w-[178px] h-[51px] flex justify-center font-[500] mr-5 max-sm:text-[17px] max-sm:w-[85px] max-sm:h-[45px] max-sm:items-center"><h1>Services</h1></span>
                 <div
@@ -17,7 +17,7 @@ const Studies = () => {
             </div>
 
             <div data-aos="fade-up"
-                className="bg-[rgb(31,32,39)] text-white   flex flex-col md:flex-row md:divide-x md:divide-gray-500/30 gap-8 w-[1240px] h-[347px]  p-[70px] rounded-[45px] mt-[60px]  justify-center items-center max-lg:hidden ">
+                className="bg-[rgb(31,32,39)] text-white   flex flex-col md:flex-row md:divide-x md:divide-gray-500/30 gap-8 w-[90vw] max-w-[1240px] mx-auto  h-[347px]  p-[70px] rounded-[45px] mt-[60px]  justify-center items-center max-lg:hidden ">
 
                 <div className="md:w-1/3 space-y-6">
                     <p>

@@ -7,7 +7,7 @@ const Marketing = () => {
 
     return (
 
-            <div data-aos="fade-up" className="w-[1240px] h-[606px] bg-[rgb(243,243,243)] flex flex-row items-center p-[70px] justify-center max-sm:h-[620px] max-sm:w-[410px]   max-lg:h-[850px]  max-lg:flex-col-reverse max-lg:w-[650px] max-sm:gap-0 rounded-[45px] gap-[60px]">
+            <div data-aos="fade-up" className="w-[90vw] max-w-[1240px] max-h-[850px] bg-[rgb(243,243,243)] flex flex-row items-center p-[70px] justify-center      max-lg:flex-col-reverse  max-sm:gap-0 rounded-[45px] gap-[60px]">
                 <div className="w-[600px] h-[450px] max-sm:w-[310px] max-lg:w-[450px] max-lg:mt-[40px] mt-[80px]">
                     <img src={servicep} alt=""/>
                 </div>

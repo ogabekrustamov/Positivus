@@ -7,10 +7,10 @@ const Process = () => {
 
     return (
         <div className="mt-[60px]">
-            <div className="w-[1240px] h-[300px] max-lg:h-[400px] flex bg-[rgb(31,32,39)] max-lg:w-[650px] max-lg:gap-[30px] max-lg:flex-col max-sm:w-[410px] max-sm:h-[600px] rounded-[45px] p-[60px]">
+            <div className="w-[90vw] max-w-[1240px] mx-auto max-h-[550px]  flex bg-[rgb(31,32,39)]  max-lg:gap-[30px] max-lg:flex-col   rounded-[45px] p-[60px]">
                 <div className="w-[30%] max-lg:w-full h-full flex flex-col">
                         <div className="flex  gap-[20px]">
-                            <img src={greenicon} className="w-[35px] "/>
+                            <img src={greenicon} alt="" className="w-[35px] "/>
                             <div className={``}>
                                 <span className="bg-[rgb(207,255,113)]  rounded-[5px] text-[28px] leading-tight max-sm:text-[23px]">Search engine </span>
                                 <span className="bg-[rgb(207,255,113)]  rounded-[5px] text-[28px] leading-tight max-sm:text-[23px]">optimization</span>
@@ -34,10 +34,10 @@ const Process = () => {
                     </div>
                 </div>
                 {/*<div className={`w-[1240px] h-[900px] flex-col gap-[30px]  bg-blue-300 mt-[60px] flex`}>*/}
-                {/*    <div className={`w-full h-[120px] bg-green-100 p-[20px]`}>*/}
+                {/*    <div className={`w-[80vw] h-[120px] bg-green-100 p-[20px]`}>*/}
                 {/*        <div className={`w-[20%] bg-[url('../../assets/Icon.svg')]`}>*/}
-                {/*            /!*<img src={Icon} alt="" className={`h-full z-[-1]`}/>*!/*/}
-                {/*            <h1>1</h1>*/}
+                {/*            <img src={Icon} alt="" className={`h-full z-[-1]`}/>*/}
+
                 {/*        </div>*/}
                 {/*    </div>*/}
                 {/*    <div className={`w-full h-[120px] bg-green-100`}></div>*/}
@@ -46,6 +46,20 @@ const Process = () => {
                 {/*    <div className={`w-full h-[120px] bg-green-100`}></div>*/}
                 {/*    <div className={`w-full h-[120px] bg-green-100`}></div>*/}
                 {/*</div>*/}
+
+
+                <div className="w-[90vw] max-w-[1240px] mx-auto">
+                    <div className="flex flex-col gap-[2vw]">
+                        <div className="w-full h-[10vw] bg-blue-200 rounded-[1vw]">Child 1</div>
+                        <div className="w-full h-[10vw] bg-blue-300 rounded-[1vw]">Child 2</div>
+                        <div className="w-full h-[10vw] bg-blue-400 rounded-[1vw]">Child 3</div>
+                        <div className="w-full h-[10vw] bg-blue-500 rounded-[1vw]">Child 4</div>
+                        <div className="w-full h-[10vw] bg-blue-600 rounded-[1vw]">Child 5</div>
+                        <div className="w-full h-[10vw] bg-blue-700 rounded-[1vw]">Child 6</div>
+                    </div>
+                </div>
+
+
             </div>
 
 

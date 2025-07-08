@@ -13,7 +13,7 @@ const Team = () => {
 
     return (
         <div className="flex flex-col max-lg:items-center">
-            <div data-aos="fade-up" className="flex max-lg:justify-center max-sm:justify-center ">
+            <div data-aos="fade-up" className="flex max-lg:justify-center  w-[90vw] max-w-[1240px] mx-auto ">
                 <span
                     className="bg-[rgb(207,255,113)] text-[30px]  h-[51px] flex justify-center font-[500] mr-5 max-sm:text-[17px]  max-sm:h-[45px] max-sm:items-center"><h1>Team </h1></span>
                 <div
@@ -22,8 +22,8 @@ const Team = () => {
                 </div>
             </div>
 
-            <div className="grid grid-cols-3 grid-row-2 gap-[40px] mt-[50px] max-lg:grid-cols-2 max-lg:grid-rows-3  max-lg:gap-[40px] max-sm:flex max-sm:flex-col items-center">
-                <div data-aos="fade-up" className="w-[387px] h-[331px] p-[40px] flex flex-col border-[1px] border-black border-b-[6px] rounded-[45px] items-center">
+            <div className="  w-[90vw] max-w-[1240px] mx-auto grid grid-cols-3 grid-row-2 gap-[40px] mt-[50px] max-xl:grid-cols-2 max-xl:grid-rows-3  max-lg:gap-[40px] max-sm:flex max-sm:flex-col items-center">
+                <div data-aos="fade-up" className="max-w-[592px] h-[380px] min-w-[340px] p-[40px] flex flex-col border-[1px] border-black border-b-[6px] rounded-[45px] items-center">
                     <div className="flex gap-[15px] pb-[20px] border-b-[1px] border-black">
                         <img src={firstp} className="w-[102px] h-[102px]" alt=""/>
                         <div className=" mt-[55px]">
@@ -36,10 +36,10 @@ const Team = () => {
                         10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy
                     </div>
                 </div>
-                <div data-aos="fade-up" className="w-[387px] h-[331px] p-[40px] flex flex-col border-[1px] border-black border-b-[6px] rounded-[45px] items-center">
+                <div data-aos="fade-up" className="max-w-[592px] h-[380px]  min-w-[320px] p-[40px] flex flex-col border-[1px] border-black border-b-[6px] rounded-[45px] items-center">
                     <div className="flex gap-[15px] pb-[20px] border-b-[1px] border-black">
                         <img src={secondp} className="w-[102px] h-[102px]" alt=""/>
-                        <div className=" mt-[30px]">
+                        <div className=" mt-[55px]">
                             <h2 className="font-bold">Jane Doe</h2>
                             <p>Director of Operations</p>
                         </div>
@@ -49,7 +49,7 @@ const Team = () => {
                         7+ years of experience in project management and team leadership. Strong organizational and communication skills
                     </div>
                 </div>
-                <div data-aos="fade-up" className="w-[387px] h-[331px] p-[40px] flex flex-col border-[1px] border-black border-b-[6px] rounded-[45px] items-center">
+                <div data-aos="fade-up" className="max-w-[592px] h-[380px]  min-w-[320px] p-[40px] flex flex-col border-[1px] border-black border-b-[6px] rounded-[45px] items-center">
                     <div className="flex gap-[15px] pb-[20px] border-b-[1px] border-black">
                         <img src={thirdp} className="w-[102px] h-[102px]" alt=""/>
                         <div className=" mt-[30px]">
@@ -62,7 +62,7 @@ const Team = () => {
                         5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization
                     </div>
                 </div>
-                <div data-aos="fade-up" className="w-[387px] h-[331px] p-[40px] flex flex-col border-[1px] border-black border-b-[6px] rounded-[45px] items-center">
+                <div data-aos="fade-up" className="max-w-[592px] h-[380px]  min-w-[340px] p-[40px] flex flex-col border-[1px] border-black border-b-[6px] rounded-[45px] items-center">
                     <div className="flex gap-[15px] pb-[20px] border-b-[1px] border-black">
                         <img src={fourthp} className="w-[102px] h-[102px]" alt=""/>
                         <div className=" mt-[55px]">
@@ -75,7 +75,7 @@ const Team = () => {
                         3+ years of experience in paid search advertising. Skilled in campaign management and performance analysis
                     </div>
                 </div>
-                <div data-aos="fade-up" className="w-[387px] h-[331px] p-[40px] flex flex-col border-[1px] border-black border-b-[6px] rounded-[45px] items-center">
+                <div data-aos="fade-up" className="max-w-[592px] h-[380px]  min-w-[340px] p-[40px] flex flex-col border-[1px] border-black border-b-[6px] rounded-[45px] items-center">
                     <div className="flex gap-[15px] pb-[20px] border-b-[1px] border-black">
                         <img src={fifthp} className="w-[102px] h-[102px]" alt=""/>
                         <div className=" mt-[30px]">
@@ -88,7 +88,7 @@ const Team = () => {
                         4+ years of experience in social media marketing. Proficient in creating and scheduling content, analyzing metrics, and building engagement
                     </div>
                 </div>
-                <div data-aos="fade-up" className="w-[387px] h-[331px] p-[40px] flex flex-col border-[1px] border-black border-b-[6px] rounded-[45px] items-center">
+                <div data-aos="fade-up" className="max-w-[592px] h-[380px]  min-w-[340px] p-[40px] flex flex-col border-[1px] border-black border-b-[6px] rounded-[45px] items-center">
                     <div className="flex gap-[15px] pb-[20px] border-b-[1px] border-black">
                         <img src={sixthp} className="w-[102px] h-[102px]" alt=""/>
                         <div className=" mt-[55px]">

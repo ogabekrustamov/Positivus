@@ -41,7 +41,7 @@ const Hero = () => {
         }, 800);
 
         setTimeout(() => {
-            setShowItems((prev) => [...prev, "container"]);
+            setShowItems((prev) => [...prev, "container-"]);
         }, 1000);
     }, []);
 
@@ -49,7 +49,7 @@ const Hero = () => {
         <div className="w-full h-[800px]  mt-[150px]  max-lg:h-[1300px] max-sm:h-[1150px]">
             {/* Text Side */}
 
-            <div className="w-full h-[500px] bg-white flex flex-row  mt-17 px-10 gap-15 max-lg:flex-col max-lg:items-center max-lg:gap-[50px;] max-lg:h-[950px] max-sm:h-[800px] ">
+            <div className="w-[90vw] max-w-[1240px] mx-auto max-h-[950px] bg-white flex flex-row  mt-17 px-10 gap-15 max-lg:flex-col max-lg:items-center max-lg:gap-[50px;]  max-sm:h-[800px] ">
                 <div className="w-[535px] h-[515px] bg-white flex flex-col  gap-[35px] max-sm:w-[360px]  ">
                     <div
                         className={`text-[50px] font-semibold transition-all duration-700 ease-out transform
@@ -87,14 +87,14 @@ const Hero = () => {
             </div>
 
 
-                <div data-aos="fade-up" className={` 
-              w-full mt-[100px]
+                <div data-aos="fade-up" className={`
+               mt-[100px]
               filter grayscale
               flex flex-row justify-around
               max-lg:grid max-lg:grid-cols-3 max-lg:grid-rows-2
-              max-lg:gap-[40px] max-lg:w-[600px] max-lg:h-[150px]
+              max-lg:gap-[40px] max-lg:w-[600px] 
               max-sm:w-[360px] max-sm:grid-cols-2 max-sm:grid-rows-3
-              mx-auto
+               w-[90vw] max-w-[1240px] mx-auto max-h-[150px]
               `}>
                     <div className="w-[173px] h-[50px] flex justify-center items-center">
                         <img src={amazon} alt="logo1"/>
@@ -119,6 +119,9 @@ const Hero = () => {
 
 
         </div>
+
+
+
     );
 };
 
