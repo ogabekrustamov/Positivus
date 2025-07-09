@@ -1,7 +1,12 @@
 
 // ✅ To‘g‘risi: default export qilish
+
+
+
 const PricingPage = () => {
-    return <div>About page</div>;
+    return <div>
+
+    </div>;
 };
 
 export default PricingPage;

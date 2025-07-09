@@ -21,7 +21,7 @@ import ContactUs from "./Components/ContactUs.jsx";
 
 import AboutUsPage from './Pages/AboutUsPage.jsx';
 import ServicesPage from './Pages/ServicesPage.jsx';
-import UseCasePage from './Pages/UseCasesPage.jsx';
+import UseCasesPage from './Pages/UseCasesPage.jsx';
 import PricingPage from './Pages/PricingPage.jsx';
 import BlogPage from './Pages/BlogPage.jsx';
 
@@ -64,7 +64,7 @@ const App = () => {
 
                 <Route path="/about" element={<AboutUsPage />} />
                 <Route path="/services" element={<ServicesPage />} />
-                <Route path="/use-cases" element={<UseCasePage />} />
+                <Route path="/use-cases" element={<UseCasesPage />} />
                 <Route path="/pricing" element={<PricingPage />} />
                 <Route path="/blog" element={<BlogPage />} />
             </Routes>

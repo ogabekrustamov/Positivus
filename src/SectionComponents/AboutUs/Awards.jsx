@@ -48,7 +48,7 @@ const Awards = () => {
 
             {/*</div>*/}
 
-            <div className="flex w-full justify-between max-lg:w-[610px] max-lg:grid max-lg:grid-cols-2 max-lg:grid-rows-2 max-lg:gap-[40px] max-sm:w-[410px]">
+            <div className="flex w-full justify-between max-lg:items-center max-lg:w-[610px] max-lg:grid max-lg:grid-cols-2 max-lg:grid-rows-2 max-lg:gap-[40px] max-sm:w-[410px]">
                 {awards.map((award, index) => (
                     <AwardCard
 

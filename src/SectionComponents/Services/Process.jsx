@@ -38,7 +38,7 @@ const Process = () => {
                     <div className="flex flex-col gap-[30px]">
                         <div className="w-full flex max-h-[400px] max-lg:max-h-[400px] bg-[rgb(243,243,243)] rounded-[14px] p-[20px]">
                             <div className="w-[130px] h-full flex justify-center items-center">
-                                <div className="w-[88px] max-sm:w-[60px] max-sm:h-[60px] flex items-center justify-center bg-cover h-[88px] bg-no-repeat transition-all duration-700 ease-out transform"  style={{ backgroundImage: "url('/src/assets/Icon.svg')" }}>
+                                <div className="w-[88px] max-sm:w-[60px] max-sm:h-[60px] flex items-center justify-center bg-cover h-[88px] bg-no-repeat transition-all duration-700 ease-out transform"  style={{ backgroundImage: "url('/Image/Icon.svg')" }}>
                                 <h1 className="text-[48px] max-lg:text-[30px] text-[rgb(207,255,113)]">01</h1></div>
                             </div>
                             <div className="w-[85%] text-black h-full flex justify-center items-center">
@@ -55,7 +55,7 @@ const Process = () => {
 
                         <div className="w-full flex max-h-[400px] max-lg:max-h-[400px] bg-[rgb(243,243,243)] rounded-[14px] p-[20px]">
                             <div className="w-[130px] h-full flex justify-center items-center">
-                                <div className="w-[88px] max-sm:w-[60px] max-sm:h-[60px] flex items-center justify-center bg-cover h-[88px] bg-no-repeat transition-all duration-700 ease-out transform"  style={{ backgroundImage: "url('/src/assets/Icon.svg')" }}>
+                                <div className="w-[88px] max-sm:w-[60px] max-sm:h-[60px] flex items-center justify-center bg-cover h-[88px] bg-no-repeat transition-all duration-700 ease-out transform"  style={{ backgroundImage: "url('/Image/Icon.svg')" }}>
                                     <h1 className="text-[48px] max-lg:text-[30px] text-[rgb(207,255,113)]">02</h1></div>
                             </div>
                             <div className="w-[85%] text-black h-full flex justify-center items-center">
@@ -72,7 +72,7 @@ const Process = () => {
 
                         <div className="w-full flex max-h-[400px] max-lg:max-h-[400px] bg-[rgb(243,243,243)] rounded-[14px] p-[20px]">
                             <div className="w-[130px] h-full flex justify-center items-center">
-                                <div className="w-[88px] max-sm:w-[60px] max-sm:h-[60px] flex items-center justify-center bg-cover h-[88px] bg-no-repeat transition-all duration-700 ease-out transform"  style={{ backgroundImage: "url('/src/assets/Icon.svg')" }}>
+                                <div className="w-[88px] max-sm:w-[60px] max-sm:h-[60px] flex items-center justify-center bg-cover h-[88px] bg-no-repeat transition-all duration-700 ease-out transform"  style={{ backgroundImage: "url('/Image/Icon.svg')" }}>
                                     <h1 className="text-[48px] max-lg:text-[30px] text-[rgb(207,255,113)]">03</h1></div>
                             </div>
                             <div className="w-[85%] text-black h-full flex justify-center items-center">
@@ -89,7 +89,7 @@ const Process = () => {
 
                         <div className="w-full flex max-h-[400px] max-lg:max-h-[400px] bg-[rgb(243,243,243)] rounded-[14px] p-[20px]">
                             <div className="w-[130px] h-full flex justify-center items-center">
-                                <div className="w-[88px] max-sm:w-[60px] max-sm:h-[60px] flex items-center justify-center bg-cover h-[88px] bg-no-repeat transition-all duration-700 ease-out transform"  style={{ backgroundImage: "url('/src/assets/Icon.svg')" }}>
+                                <div className="w-[88px] max-sm:w-[60px] max-sm:h-[60px] flex items-center justify-center bg-cover h-[88px] bg-no-repeat transition-all duration-700 ease-out transform"  style={{ backgroundImage: "url('/Image/Icon.svg')" }}>
                                     <h1 className="text-[48px] max-lg:text-[30px] text-[rgb(207,255,113)]">04</h1></div>
                             </div>
                             <div className="w-[85%] text-black h-full flex justify-center items-center">
@@ -106,7 +106,7 @@ const Process = () => {
 
                         <div className="w-full flex max-h-[400px] max-lg:max-h-[400px] bg-[rgb(243,243,243)] rounded-[14px] p-[20px]">
                             <div className="w-[130px] h-full flex justify-center items-center">
-                                <div className="w-[88px] max-sm:w-[60px] max-sm:h-[60px] flex items-center justify-center bg-cover h-[88px] bg-no-repeat transition-all duration-700 ease-out transform"  style={{ backgroundImage: "url('/src/assets/Icon.svg')" }}>
+                                <div className="w-[88px] max-sm:w-[60px] max-sm:h-[60px] flex items-center justify-center bg-cover h-[88px] bg-no-repeat transition-all duration-700 ease-out transform"  style={{ backgroundImage: "url('/Image/Icon.svg')" }}>
                                     <h1 className="text-[48px] max-lg:text-[30px] text-[rgb(207,255,113)]">05</h1></div>
                             </div>
                             <div className="w-[85%] text-black h-full flex justify-center items-center">
@@ -123,7 +123,7 @@ const Process = () => {
 
                         <div className="w-full flex max-h-[400px] max-lg:max-h-[400px] bg-[rgb(243,243,243)] rounded-[14px] p-[20px]">
                             <div className="w-[130px] h-full flex justify-center items-center">
-                                <div className="w-[88px] max-sm:w-[60px] max-sm:h-[60px] flex items-center justify-center bg-cover h-[88px] bg-no-repeat transition-all duration-700 ease-out transform"  style={{ backgroundImage: "url('/src/assets/Icon.svg')" }}>
+                                <div className="w-[88px] max-sm:w-[60px] max-sm:h-[60px] flex items-center justify-center bg-cover h-[88px] bg-no-repeat transition-all duration-700 ease-out transform"  style={{ backgroundImage: "url('/Image/Icon.svg')" }}>
                                     <h1 className="text-[48px] max-lg:text-[30px] text-[rgb(207,255,113)]">06</h1></div>
                             </div>
                             <div className="w-[85%] text-black h-full flex justify-center items-center">

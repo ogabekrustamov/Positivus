@@ -11,7 +11,7 @@
 export const navlinks = [
     { id: 'about', title: 'About Us', path: '/about' },
     { id: 'services', title: 'Services', path: '/services' },
-    { id: 'usecases', title: 'Use Cases', path: '/usecases' },
+    { id: 'usecases', title: 'Use Cases', path: '/use-cases' },
     { id: 'pricing', title: 'Pricing', path: '/pricing' },
     { id: 'blog', title: 'Blog', path: '/blog' }
 ];

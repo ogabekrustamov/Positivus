@@ -88,7 +88,7 @@ const  Services = () => {
                     </div>
                 </div>
 
-                <div data-aos="fade-up" className="max-w-[600px] flex gap-[5vw] h-[310px] bg-[rgb(207,255,113)] rounded-[45px]  border-[1px] border-b-6 p-[50px] max-sm:w-[410px] max-sm:h-[220px] max-sm:p-[20px] max-sm:rounded-[30px] transition-all ease-in-out duration-300 hover:scale-105">
+                <div data-aos="fade-up" className="max-w-[600px] flex gap-[5vw] h-[310px] bg-[rgb(207,255,113)] rounded-[45px]  border-[1px] border-b-6 p-[50px] max-sm:w-[410px] max-sm:h-[220px] max-sm:p-[20px] max-sm:rounded-[30px]  hover:scale-105 transform transition-transform ease-in-out duration-300">
                     <div className=" inline-block">
                         <span className="bg-[rgb(243,243,243)]  rounded-[5px] text-[25px] leading-tight max-sm:text-[23px]">Content</span><br/>
                         <span className="bg-[rgb(243,243,243)]  rounded-[5px] text-[25px] leading-tight max-sm:text-[23px]">Creation</span>
