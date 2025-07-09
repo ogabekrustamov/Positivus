@@ -1,12 +1,12 @@
 
 
-import Illustration from '../assets/Illustration.svg';
-import amazon from '../assets/amazon.svg';
-import dribble from '../assets/dribble.svg';
-import hubspot from'../assets/hubspot.svg';
-import notion from '../assets/notion.svg';
-import netflix from '../assets/netflix.svg';
-import zoom from '../assets/zoom.svg';
+// import Illustration from '../../public/Image/Illustration.svg';
+// import amazon from '../assets/amazon.svg';
+// import dribble from '../../public/Image/dribble.svg';
+// import hubspot from '../../public/Image/hubspot.svg';
+// import notion from '../../public/Image/notion.svg';
+// import netflix from '../../public/Image/netflix.svg';
+// import zoom from '../../public/Image/zoom.svg';
 
 
 import { useEffect, useState,} from "react";
@@ -79,7 +79,7 @@ const Hero = () => {
                     ${showItems.includes("image") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}  max-sm:w-[360px] max-sm:h-[300px] max-sm:lg-[60px] max-lg:w-[500px] max-lg:h-[400px] `}
                 >
                     <img
-                        src={Illustration}
+                        src="/Image/Illustration.svg"
                         className="w-[550px] h-[515px] max-sm:w-[360px] max-sm:h-[300px]"
                         alt="Illustration"
                     />
@@ -97,22 +97,22 @@ const Hero = () => {
                w-[90vw] max-w-[1240px] mx-auto max-h-[150px]
               `}>
                     <div className="w-[173px] h-[50px] flex justify-center items-center">
-                        <img src={amazon} alt="logo1"/>
+                        <img src="/Image/amazon.svg" alt="logo1"/>
                     </div>
                     <div className="w-[173px] h-[50px] flex  justify-center items-center">
-                        <img src={dribble} alt="logo2"/>
+                        <img src="/Image/dribble.svg" alt="logo2"/>
                     </div>
                     <div className="w-[173px] h-[50px] flex  justify-center items-center">
-                        <img src={hubspot} alt="logo3"/>
+                        <img src="/Image/hubspot.svg" alt="logo3"/>
                     </div>
                     <div className="w-[173px] h-[50px] flex  justify-center items-center">
-                        <img src={netflix} alt="logo4"/>
+                        <img src="/Image/netflix.svg" alt="logo4"/>
                     </div>
                     <div className="w-[173px] h-[50px] flex  justify-center items-center">
-                        <img src={notion} alt="logo5"/>
+                        <img src="/Image/notion.svg" alt="logo5"/>
                     </div>
                     <div className="w-[173px] h-[50px] flex justify-center items-center">
-                        <img src={zoom} alt="logo6"/>
+                        <img src="/Image/zoom.svg" alt="logo6"/>
                     </div>
                 </div>
 

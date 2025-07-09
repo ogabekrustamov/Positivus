@@ -2,7 +2,7 @@
 
 import React from "react";
 import { FaLinkedinIn, FaFacebookF, FaTwitter } from "react-icons/fa";
-import white from '../assets/white.svg';
+// import white from '../../public/Image/white.svg';
 
 const Footer = () => {
     return (
@@ -15,7 +15,7 @@ const Footer = () => {
                         {/*<h1 className="text-2xl font-semibold">🌟 Positivus</h1>*/}
                         <div
                             className={`flex items-center gap-2 transition-all duration-700 ease-out transform`}>
-                            <img src={white} className="w-[36px] h-[36px]" alt="logo" />
+                            <img src="/Image/white.svg" className="w-[36px] h-[36px]" alt="logo" />
                             <p className="text-[28px] sm:text-[32px] font-bold">Positivus</p>
                         </div>
 

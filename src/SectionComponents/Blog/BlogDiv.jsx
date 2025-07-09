@@ -1,4 +1,4 @@
-import servicep from "../../assets/servicep.svg";
+// import servicep from "../../../public/Image/servicep.svg";
 
 
 const BlogDiv = () => {
@@ -29,7 +29,7 @@ const BlogDiv = () => {
               max-lg:flex-col-reverse max-lg:gap-[5vw]"
             >
                 <div className="w-[40vw] max-w-[600px] flex justify-center h-auto max-sm:w-[80vw] max-lg:w-[60vw] mt-[5vh]">
-                    <img src={servicep} alt="Service" className="w-[70vw] h-auto " />
+                    <img src="/Image/servicep.svg" alt="Service" className="w-[70vw] h-auto " />
                 </div>
 
                 <div className="flex flex-col justify-center items-start w-[35vw] max-w-[500px] gap-[2.5vw] max-sm:w-[80vw] h-full">

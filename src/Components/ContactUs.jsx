@@ -1,11 +1,11 @@
 import React from "react";
-import gh from '../assets/gh.svg';
+// import gh from '../../public/Image/gh.svg';
 
 const ContactUs = () => {
 
     return (
-        <div className="flex flex-col max-lg:items-center mt-[40px] ">
-            <div data-aos="fade-up" className="flex max-lg:justify-center max-sm:justify-center  ">
+        <div className="flex w-[90vw] max-[1240px] flex-col  mt-[40px] ">
+            <div data-aos="fade-up" className="flex max-w-[1240px] max-lg:justify-center max-sm:justify-center  ">
                 <span
                     className="bg-[rgb(207,255,113)] text-[30px]  h-[51px] flex justify-center font-[500] mr-5 max-sm:text-[17px]  max-sm:h-[45px] max-sm:items-center"><h1>Contact Us</h1></span>
                 <div
@@ -14,8 +14,8 @@ const ContactUs = () => {
                 </div>
             </div>
 
-            <div data-aos="fade-up" className="max-w-[1240px] h-[773px] bg-[rgb(243,243,243)] rounded-[45px] pl-[100px] pt-[60px] p-[40px] mt-[40px] flex items-center max-sm:h-[670px] max-lg:w-[700px] max-lg:p-[70px] max-sm:w-[400px] max-sm:p-[40px]">
-                <div className="inline-block">
+            <div data-aos="fade-up" className=" mx-auto max-w-full h-[773px] bg-[rgb(243,243,243)] rounded-[45px] pl-[100px] pt-[60px] p-[40px] mt-[40px] flex items-center max-sm:h-[670px]  max-lg:p-[70px]  max-sm:p-[40px]">
+                <div className="">
                     <form action="" method="GET">
 
                         <div className="mb-[40px] ">
@@ -43,26 +43,26 @@ const ContactUs = () => {
 
                         <label htmlFor="name" className="block mb-[10px] ">Name</label>
                         <input type="text" placeholder="Name" id="name"
-                               className="w-[556px] h-[59px] rounded-[14px] max-sm:w-[320px]  max-sm:h-[50px] border-black border-[1px] p-[20px] mb-[25px]"/>
+                               className="w-[44vw] max-w-[556px] h-[59px] rounded-[14px] max-sm:w-[320px]  max-sm:h-[50px] border-black border-[1px] p-[20px] mb-[25px]"/>
 
                         <label htmlFor="email" className="block mb-[10px]">Email*</label>
                         <input type="text" placeholder="Email" id="email"
-                               className="w-[556px] h-[59px] rounded-[14px] border-black border-[1px] p-[20px] mb-[25px] max-sm:w-[320px]  max-sm:h-[50px]"/>
+                               className="w-[44vw] max-w-[556px] h-[59px] rounded-[14px] border-black border-[1px] p-[20px] mb-[25px] max-sm:w-[320px]  max-sm:h-[50px]"/>
 
                         <label htmlFor="message" className="block mb-[10px]">Message*</label>
                         <textarea
                             id="message"
                             placeholder="Message"
-                            className="w-[556px] h-[190px] rounded-[14px] text-left max-sm:w-[320px]  border-black border-[1px] p-[20px] mb-[25px] resize-none"
+                            className="w-[44vw] max-w-[556px] h-[190px] rounded-[14px] text-left max-sm:w-[320px]  border-black border-[1px] p-[20px] mb-[25px] resize-none"
                         ></textarea>
 
                         <button
-                                className="w-[556px] h-[68px] bg-black rounded-[14px] text-white block max-sm:w-[320px]  max-sm:h-[50px]">Send Message
+                                className="w-[44vw] max-w-[556px] h-[68px] bg-black rounded-[14px] text-white block max-sm:w-[320px]  max-sm:h-[50px]">Send Message
                         </button>
                     </form>
                 </div>
                 <div className="inline-block float-right w-[500px] max-lg:hidden">
-                <img  src={gh} alt=""/>
+                {/*<img  src="/Image/form.svg" alt=""/>*/}
                 </div>
             </div>
         </div>

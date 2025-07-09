@@ -1,7 +1,7 @@
 import React from "react";
 import AwardCard from "./AwardCard.jsx";
-import award1 from '../../assets/award1.png';
-import award2 from '../../assets/award2.png';
+import award1 from '../../../public/Image/award1.png';
+import award2 from '../../../public/Image/award2.png';
 
 
 const Awards = () => {
@@ -30,7 +30,7 @@ const Awards = () => {
     ];
 
     return (
-        <div className="">
+        <div className="w-[90vw] max-w-[1240px]">
             <div  className="flex max-lg:justify-center max-sm:justify-center mb-[60px]">
                 <span
                     className="bg-[rgb(207,255,113)] text-[30px]  h-[51px] flex justify-center font-[500] mr-5 max-sm:text-[17px]  max-sm:h-[45px] max-sm:items-center"><h1>Team </h1></span>
@@ -48,7 +48,7 @@ const Awards = () => {
 
             {/*</div>*/}
 
-            <div className="flex w-[1240px] justify-between max-lg:w-[610px] max-lg:grid max-lg:grid-cols-2 max-lg:grid-rows-2 max-lg:gap-[40px] max-sm:w-[410px]">
+            <div className="flex w-full justify-between max-lg:w-[610px] max-lg:grid max-lg:grid-cols-2 max-lg:grid-rows-2 max-lg:gap-[40px] max-sm:w-[410px]">
                 {awards.map((award, index) => (
                     <AwardCard
 

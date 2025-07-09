@@ -4,7 +4,7 @@
 
 // src/components/Card.jsx
 import React from 'react';
-import pod from '../../assets/pod.svg';
+import pod from '../../../public/Image/pod.svg';
 
 
 const FullDiv = () => {

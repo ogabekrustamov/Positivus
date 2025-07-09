@@ -3,7 +3,7 @@ import React from "react";
 const Aboutnumber = () => {
 
     return (
-        <div  className="flex flex-col max-lg:justify-center max-lg:items-center max-sm:justify-center  mt-[60px]">
+        <div  className="flex flex-col w-[90vw] max-w-[1240px] mx-auto max-lg:justify-center max-lg:items-center max-sm:justify-center  mt-[60px]">
             <div data-aos="fade-up" className="flex max-lg:justify-center max-sm:justify-center ">
                 <span
                     className="bg-[rgb(207,255,113)] text-[30px]  h-[51px] flex justify-center font-[500] mr-5 max-sm:text-[17px]  max-sm:h-[45px] max-sm:items-center"><h1>Team </h1></span>
@@ -12,7 +12,7 @@ const Aboutnumber = () => {
                     Meet the skilled and experienced team behind our successful digital marketing strategies
                 </div>
             </div>
-            <div className="w-[1240px] flex mt-[60px] flex-wrap justify-evenly max-sm:w-[410px] max-lg:w-[650px] max-lg:mt-[100px] mb-[80px]">
+            <div className="w-[90vw] max-w-[1240px] mx-auto flex mt-[60px] flex-wrap justify-evenly max-sm:w-[410px] max-lg:w-[650px] max-lg:mt-[100px] mb-[80px]">
                 <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" className="w-[248px] max-sm:w-[200px] h-[80px] border-t-[2px] border-black flex flex-col items-center justify-center rounded-[16px]">
                     <div>
                         <h1>8+</h1>
