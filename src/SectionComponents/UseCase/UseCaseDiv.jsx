@@ -15,10 +15,10 @@ const UseCaseDiv = () => {
                 </div>
 
                 <div className="flex flex-col justify-center items-start w-[35vw] max-w-[500px] gap-[2.5vw] max-sm:w-[80vw] h-full">
-                    <h2 className="text-[2.6vw] max-sm:text-[6vw] max-lg:text-[5vw] font-semibold leading-snug transition-all duration-700 ease-out">
+                    <h2 className="text-[39px] max-sm:text-[6vw] max-lg:text-[5vw] font-semibold leading-snug transition-all duration-700 ease-out">
                         Expert Digital <br /> Marketing <br /> Services
                     </h2>
-                    <p className="text-[1.1vw] max-sm:text-[3.5vw] max-lg:text-[2vw] transition-all duration-700 ease-out">
+                    <p className="text-[17px] max-sm:text-[3.5vw] max-lg:text-[2vw] transition-all duration-700 ease-out">
                         Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.
                     </p>
                 </div>
