@@ -4,8 +4,8 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const AccordionItem = ({ number, title, content, isOpen, onClick }) => {
     return (
-        <div
-            className={`rounded-[20px] border border-black shadow-md transition-all duration-300 overflow-hidden mb-4 ${
+        <div data-aos="fade-up"
+            className={`rounded-[20px] border border-black shadow-md transition-all  duration-300 overflow-hidden mb-4 ${
                 isOpen ? "bg-lime-300" : "bg-gray-100"
             }`}
         >
@@ -28,7 +28,7 @@ const AccordionItem = ({ number, title, content, isOpen, onClick }) => {
                         initial={{ height: 0, opacity: 0 }}
                         animate={{ height: "auto", opacity: 1 }}
                         exit={{ height: 0, opacity: 0 }}
-                        transition={{ duration: 0.3 }}
+                        transition={{ duration: 0.1 }}
                         className="overflow-hidden"
                     >
                         <div data-aos="fade-up" className=" px-6 pb-6 pt-2 border-t border-black text-sm text-gray-800 leading-relaxed ">

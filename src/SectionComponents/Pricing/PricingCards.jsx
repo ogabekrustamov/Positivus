@@ -6,7 +6,7 @@ const PricingCards = () => {
         <div className={``}>
             <div className={`w-[90vw] max-w-[1240px]`}>
                 <div>
-                    <h1 className={`text-[75px] font-semibold `}>Pricing</h1>
+                    <h1 className={`text-[60px] font-semibold `}>Pricing</h1>
                     <p className={`text-[18px] `}>Elevate your Online Precense.Competetive pricing <br/> fro Exceprional results</p>
                 </div>
                 <div className={`flex justify-between mt-[60px] gap-[20px] max-lg:grid max-lg:grid-cols-2 max-sm:flex max-sm:flex-col`}>
