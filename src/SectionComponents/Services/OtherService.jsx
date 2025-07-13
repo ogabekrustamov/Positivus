@@ -27,7 +27,7 @@ const  OtherService = () => {
     }, []);
 
     return (
-        <div className=" w-[90vw] max-w-[1240px] mx-auto  h-[1700px] max-lg:h-[2650px] max-sm:h-[2020px]">
+        <div className=" w-[90vw] max-w-[1240px] mx-auto  max-h-[1700px] max-lg:h-[2650px] max-sm:h-[2020px]">
             <div data-aos="fade-up"  className="flex w-[90vw] max-w-[1240px] mx-auto  max-lg:justify-center ">
                 <span className="bg-[rgb(207,255,113)] text-[30px] w-[178px] h-[51px] flex justify-center font-[500] mr-5 max-sm:text-[17px] max-sm:w-[85px] max-sm:h-[45px] max-sm:items-center"><h1>Services</h1></span>
                 <div className="w-[580px] h-[46px] max-lg:w-[540px] max-sm:w-[320px] max-sm:h-[80px] max-sm:text-[14px] transition-all duration-700 ease-out transform">At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</div>
@@ -118,29 +118,10 @@ const  OtherService = () => {
                     </div>
                 </div>
 
-                {/*<div data-aos="fade-up" className=" hidden bg-[rgb(243,243,243)] rounded-[45px] mt-[60px] max-lg:w-[600px] max-lg:h-[310px] max-lg:block max-sm:block max-sm:w-[410px] max-sm:h-[220px] max-sm:p-[20px] max-sm:mt-[20px] max-sm:rounded-[30px]">*/}
-                {/*    <div className="w-[500px]  inline-flex flex-col gap-[30px] justify-center h-full ml-[60px] max-sm:ml-[35px] max-sm:w-[300px] max-sm:gap-[15px]">*/}
-                {/*        <h1 className="text-[25px] max-sm:text-[18px]">Let’s make things happen</h1>*/}
-                {/*        <p className="text-[14px]">Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>*/}
-                {/*        <button className="w-[288px] h-[68px] bg-black text-white rounded-[14px] max-sm:text-[14px] max-sm:w-[200px] max-sm:h-[48px]">Get your free proposal</button>*/}
-                {/*    </div>*/}
-                {/*    <div className="h-full float-right inline-flex items-center max-lg:hidden">*/}
-                {/*        <img src="/Image/star.svg" className="w-[500px] h-[550px]" alt="salom"/>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
 
 
             </div>
-            {/*<div data-aos="fade-up" className=" w-[90vw] max-w-[1240px] mx-auto h-[347px] bg-[rgb(243,243,243)] rounded-[45px] mt-[100px] max-lg:hidden">*/}
-            {/*    <div className="max-w-[30vw]  inline-flex flex-col gap-[30px] justify-center h-full ml-[60px]">*/}
-            {/*        <h1 className="text-[25px]">Let’s make things happen</h1>*/}
-            {/*        <p>Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>*/}
-            {/*        <button className="w-[288px] h-[68px] bg-black text-white rounded-[14px]">Get your free proposal</button>*/}
-            {/*    </div>*/}
-            {/*    <div className="h-full float-right inline-flex items-center max-lg:hidden">*/}
-            {/*        <img src="/Image/star.svg" className="max-w-[40vw] " alt="salom"/>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
+
         </div>
 
 

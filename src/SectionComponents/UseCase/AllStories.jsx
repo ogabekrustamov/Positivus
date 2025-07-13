@@ -8,8 +8,8 @@ const AllStories = () => {
                 <div className="w-[580px] h-[46px] max-lg:w-[540px] max-sm:w-[320px] max-sm:h-[80px] max-sm:text-[14px] transition-all duration-700 ease-out transform">Explore real life examples of Our proven digital Marketing Succes through our Case Studiesw</div>
             </div>
 
-            <div className={`max-w-[1240px] mx-auto w-[90vw] max-sm:p-0  p-[60px] grid grid-cols-3 grid-rows-2 border-[1px] max-lg:grid-cols-2 max-lg:grid-rows-3 rounded-[45px] mt-[60px] max-sm:flex max-sm:border-none max-sm:flex-col`}>
-                <div className="w-full flex gap-[30px] flex-col pb-[50px] border-b-[1px] border-r-[1px] max-sm:border-[1px] max-sm:rounded-[45px]  max-sm:p-[40px] pr-[50px]">
+            <div className={`max-w-[1240px] mx-auto w-[90vw] max-sm:p-0  p-[60px] grid grid-cols-3 grid-rows-2 border-[1px] max-lg:grid-cols-2 max-lg:grid-rows-3 max-lg:pb-[60px] rounded-[45px] mt-[60px] max-sm:flex max-sm:border-none max-sm:flex-col max-sm:gap-[40px]`}>
+                <div className="w-full flex gap-[30px] flex-col pb-[50px] border-b-[1px] border-r-[1px] max-lg:pb-0 max-sm:border-[1px] max-sm:rounded-[45px]  max-sm:p-[40px] pr-[60px]">
                     <h1 className={`text-[25px] font-semibold`}>E-commerce1<br/> fashion brand</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem consequatur cupiditate dolorem, doloremque esse eveniet libero molestiae necessitatibus nemo voluptas?</p>
                     <div className="w-full flex items-center gap-[20px]">
@@ -17,7 +17,7 @@ const AllStories = () => {
                         <p className={`hover:underline`}>Learn more</p>
                     </div>
                 </div>
-                <div className="w-full flex gap-[30px] flex-col pb-[60px] pr-[60px] border-b-[1px] border-r-[1px] max-lg:border-r-0 pl-[60px]  max-sm:border-[1px] max-sm:rounded-[45px]  max-sm:p-[40px] ">
+                <div className="w-full flex gap-[30px] flex-col pb-[60px] pr-[60px] max-lg:pr-0 border-b-[1px] max-lg:pb-0 border-r-[1px] max-lg:border-r-0 pl-[60px]  max-sm:border-[1px] max-sm:rounded-[45px]  max-sm:p-[40px] ">
                     <h1 className={`text-[25px] font-semibold`}>E-commerc2 <br/> fashion brand</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem consequatur cupiditate dolorem, doloremque esse eveniet libero molestiae necessitatibus nemo voluptas?</p>
                     <div className="w-full flex items-center gap-[20px]">
@@ -25,7 +25,7 @@ const AllStories = () => {
                         <p className={`hover:underline`}>Learn more</p>
                     </div>
                 </div>
-                <div className="w-full flex gap-[30px] flex-col  pb-[60px] border-b-[1px] max-lg:border-r-[1px] max-lg:pl-0 pl-[60px] max-lg:pt-[60px]  max-sm:border-[1px] max-sm:rounded-[45px]  max-sm:p-[40px] ">
+                <div className="w-full flex gap-[30px] flex-col  pb-[60px] max-lg:pr-[60px] border-b-[1px] max-lg:border-r-[1px] max-lg:pl-0 pl-[60px] max-lg:pt-[60px]  max-sm:border-[1px] max-sm:rounded-[45px]  max-sm:p-[40px] ">
                     <h1 className={`text-[25px] font-semibold`}>E-commerc3 <br/> fashion brand</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem consequatur cupiditate dolorem, doloremque esse eveniet libero molestiae necessitatibus nemo voluptas?</p>
                     <div className="w-full flex items-center gap-[20px]">

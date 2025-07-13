@@ -34,7 +34,7 @@ const Navbar = () => {
             ${showItems.includes("logo") ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-5"}`}>
                     <Link to="/" className="flex items-center gap-2">
                         <img src="/Image/Icon.svg" className="w-[36px] h-[36px]" alt="logo" />
-                        <p className="text-[28px] sm:text-[32px] font-bold">Positivus</p>
+                        <p className="text-[28px] sm:text-[32px] font">Positivus</p>
                     </Link>
                 </div>
 

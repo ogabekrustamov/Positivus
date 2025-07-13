@@ -1,13 +1,4 @@
 
-// import arroww from '/public/Image/arroww.svg';
-// import arrowb from '../../public/Image/arrowb.svg';
-// import serch from '../../public/Image/serch.svg';
-// import message from '../../public/Image/message.svg';
-// import star from '../../public/Image/star.svg';
-// import statistic from '../../public/Image/statistic.svg';
-// import content from '../../public/Image/content.svg';
-// import click from '../../public/Image/click.svg';
-// import media from '../../public/Image/media.svg';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';

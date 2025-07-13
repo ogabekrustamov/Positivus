@@ -23,24 +23,24 @@ const Values = () => {
                     <div className="text-[18px] max-sm:text-[16px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam esse facere minima molestiae optio quod reprehenderit ullam unde. Ad consequatur cum dicta et modi, nemo provident quos repellendus vero voluptates.</div>
                 </div>
 
-                <div className="max-w-full   max-lg:w-[600px] max-h-[510px] flex gap-[30px] border-[1px] max-sm:flex-col max-sm:h-[450px] items-center rounded-[45px] max-sm:p-[30px] p-[45px] max-lg:order-2 ">
+                <div className="max-w-full max-sm:gap-[30px]   max-lg:w-[600px] max-h-[510px] flex  border-[1px] max-sm:flex-col max-sm:h-[450px] items-center rounded-[45px] max-sm:p-[30px] p-[45px] max-lg:order-2 ">
                     <div className="w-[50%] max-xl:w-full max-sm:w-full ">
                         <div className="text-[25px] max-sm:text-[24px] mb-[20px]">Client Succes first</div>
                         <div className="w-[250px] h-[1px] mb-[20px] max-sm:w-[350px] bg-black"></div>
                         <div className="text-[18px] max -sm:text-[16px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam esse facere minima molestiae  quos repellendus vero voluptates.</div>
                     </div>
-                    <div className="w-[50%]    max-sm:w-full pl-[70px] ">
-                        <img src="/Image/innovation.svg" className="w-[210px] " alt=""/>
+                    <div className="w-[50%] max-sm:w-[210px]    pl-[30px] max-sm:pl-0 ">
+                        <img src="/Image/innovation.svg" className=" " alt=""/>
                     </div>
                 </div>
 
-                <div className="max-w-full  max-lg:w-[600px] max-h-[510px] flex gap-[30px] border-[1px] max-sm:flex-col max-sm:h-[410px] items-center rounded-[45px] max-sm:p-[30px] p-[45px] max-lg:order-4 ">
+                <div className="max-w-full  max-lg:w-[600px] max-h-[510px] flex  border-[1px] max-sm:flex-col max-sm:h-[410px] items-center rounded-[45px] max-sm:p-[30px] p-[45px] max-lg:order-4 ">
                     <div className="w-[50%] max-sm:w-full ">
                         <div className="text-[25px] max-sm:text-[24px] mb-[20px]">Client Succes first</div>
                         <div className="w-[250px] h-[1px] mb-[20px] max-sm:w-[350px] bg-black"></div>
                         <div className="text-[18px] max-sm:text-[16px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam esse facere minima molestiae  quos repellendus vero voluptates.</div>
                     </div>
-                    <div className="w-[50%] max-sm:w-full pl-[70px] ">
+                    <div className="w-[50%] max-sm:w-full pl-[20px] ">
                         <img src="/Image/calloboration.svg" className="w-[210px]" alt=""/>
                     </div>
                 </div>

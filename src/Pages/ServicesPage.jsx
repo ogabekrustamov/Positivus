@@ -4,6 +4,7 @@ import Process from "../SectionComponents/Services/Process.jsx";
 import UseCases from "../SectionComponents/Services/UseCases.jsx";
 
 import OtherService from "../SectionComponents/Services/OtherService.jsx";
+import SearchRanking from "../SectionComponents/UseCase/SearchRanking.jsx";
 
 
 // ✅ To‘g‘risi: default export qilish
@@ -14,6 +15,7 @@ const ServicesPage = () => {
             <Process />
             <UseCases />
             <OtherService />
+            <SearchRanking />
         </div>
     )
 };
