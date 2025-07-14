@@ -44,9 +44,10 @@ const App = () => {
 
     return (
         <main className="App">
+            <ScrollToTop />
             <SmoothScroll />
             <Navbar />
-            <ScrollToTop />
+
 
             <Routes>
                 <Route

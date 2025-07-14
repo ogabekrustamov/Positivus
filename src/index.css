@@ -31,12 +31,3 @@ body{
     background-color: #10b981; /* yashil rang */
 }
 
-
-::-webkit-scrollbar-track {
-    background: rgb(207,255,113);  /* Scroll yo‘lining orqa fon rangi */
-}
-
-::-webkit-scrollbar-thumb {
-    background: #888; /* Scroll tugmasining o‘zi (thumb) rangi */
-    border-radius: 10px;
-}

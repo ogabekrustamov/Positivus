@@ -20,7 +20,7 @@ const Process = () => {
                 </div>
                 <div className="w-[70%] max-lg:w-full flex gap-[30px] flex-col">
                     <p className={`text-white`}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolorum eveniet excepturi ipsam laboriosam officia, porro quasi quidem voluptatem voluptatum! Ad at aut consectetur consequatur consequuntur corporis debitis et excepturi facilis illum, inventore laboriosam minima natus numquam provident qui quibusdam quos reiciendis repellat, sed tenetur, totam ut veniam vero voluptas.</p>
-                    <button className={`w-full h-[60px] bg-white rounded-[14px] flex justify-center items-center`}>Boost My Rankings</button>
+                    <button className={`w-full h-[60px] bg-white hover:bg-[rgb(207,255,113)]  rounded-[14px] flex justify-center items-center`}>Boost My Rankings</button>
                 </div>
             </div>
 

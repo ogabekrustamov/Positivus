@@ -46,11 +46,11 @@ const Hero = () => {
     }, []);
 
     return (
-        <div className="w-full h-[800px]  mt-[150px]  max-lg:h-[1300px] max-sm:h-[1150px]">
+        <div className="w-full h-[800px]  mt-[150px]  max-lg:h-[1180px] max-sm:h-[1150px]">
             {/* Text Side */}
 
             <div className="w-[90vw] max-w-[1240px] mx-auto max-h-[950px] bg-white flex flex-row  mt-17 px-10 gap-15 max-lg:flex-col max-lg:items-center max-lg:gap-[50px;]  max-sm:h-[800px] ">
-                <div className="w-[535px] h-[515px] bg-white flex flex-col  gap-[35px] max-sm:w-[360px]  ">
+                <div className="w-[535px] h-[515px] max-lg:w-full max-lg:max-h-[380px] bg-white flex flex-col  gap-[35px] max-sm:w-[360px]   ">
                     <div
                         className={`text-[50px] font-semibold transition-all duration-700 ease-out transform
                         ${showItems.includes("title") ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-5"} max-sm:text-[40px]`}
@@ -66,8 +66,8 @@ const Hero = () => {
                     </div>
 
                     <button
-                        className={`w-[264px] h-[68px] text-white bg-black text-[20px] rounded-[14px] transition-all duration-700 ease-out transform
-                        ${showItems.includes("button") ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-5"} max-sm:text-[18px] max-sm:w-[250px] max-sm:h-[48px]`}
+                        className={`w-[264px] h-[68px] text-white bg-black text-[20px] rounded-[14px] 
+                        ${showItems.includes("button") ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-5"} max-sm:text-[18px] max-sm:w-[250px] hover:bg-[rgb(207,255,113)] hover:text-black max-sm:h-[48px]`}
                     >
                         Book a consultation
                     </button>
@@ -92,26 +92,26 @@ const Hero = () => {
               filter grayscale
               flex flex-row justify-around
               max-lg:grid max-lg:grid-cols-3 max-lg:grid-rows-2
-              max-lg:gap-[40px] max-lg:w-[600px] 
-              max-sm:w-[360px] max-sm:grid-cols-2 max-sm:grid-rows-3
+              max-lg:gap-[40px] 
+              max-sm:grid-cols-2 max-sm:grid-rows-3
                w-[90vw] max-w-[1240px] mx-auto max-h-[150px]
               `}>
-                    <div className="w-[173px] h-[50px] flex justify-center items-center">
+                    <div className="w-full h-[50px] flex justify-center items-center">
                         <img src="/Image/amazon.svg" alt="logo1"/>
                     </div>
-                    <div className="w-[173px] h-[50px] flex  justify-center items-center">
+                    <div className="w-full h-[50px] flex  justify-center items-center">
                         <img src="/Image/dribble.svg" alt="logo2"/>
                     </div>
-                    <div className="w-[173px] h-[50px] flex  justify-center items-center">
+                    <div className="w-full h-[50px] flex  justify-center items-center">
                         <img src="/Image/hubspot.svg" alt="logo3"/>
                     </div>
-                    <div className="w-[173px] h-[50px] flex  justify-center items-center">
+                    <div className="w-full h-[50px] flex  justify-center items-center">
                         <img src="/Image/netflix.svg" alt="logo4"/>
                     </div>
-                    <div className="w-[173px] h-[50px] flex  justify-center items-center">
+                    <div className="w-full h-[50px] flex  justify-center items-center">
                         <img src="/Image/notion.svg" alt="logo5"/>
                     </div>
-                    <div className="w-[173px] h-[50px] flex justify-center items-center">
+                    <div className="w-full h-[50px] flex justify-center items-center">
                         <img src="/Image/zoom.svg" alt="logo6"/>
                     </div>
                 </div>

@@ -11,7 +11,7 @@ const HeroAbout = () => {
               max-lg:flex-col-reverse max-lg:gap-[5vw]"
             >
                 <div className="w-[40vw] max-w-[600px] flex justify-center h-auto max-sm:w-[80vw] max-lg:w-[60vw] mt-[5vh]">
-                    <img src="/Image/servicep.svg" alt="Service" className="w-[70vw] h-auto " />
+                    <img src="/Image/aboutill.svg" alt="Service" className="w-[70vw] h-auto " />
                 </div>
 
                 <div className="flex flex-col justify-center items-start w-[35vw] max-w-[650px] max-lg:w-full gap-[2.5vw] max-sm:w-[80vw] h-full">

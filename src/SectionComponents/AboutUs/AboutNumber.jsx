@@ -12,7 +12,7 @@ const Aboutnumber = () => {
                     Meet the skilled and experienced team behind our successful digital marketing strategies
                 </div>
             </div>
-            <div className="w-[90vw] max-w-[1240px] mx-auto flex mt-[60px] flex-wrap justify-evenly max-sm:w-[410px] max-lg:w-[650px] max-lg:mt-[100px] mb-[80px]">
+            <div className=" w-full  flex mt-[60px] flex-wrap justify-evenly max-sm:w-[410px] max-lg:w-[650px] max-lg:mt-[100px] mb-[60px]">
                 <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" className="w-[248px] max-sm:w-[200px] h-[80px] border-t-[2px] border-black flex flex-col items-center justify-center rounded-[16px]">
                     <div>
                         <h1>8+</h1>

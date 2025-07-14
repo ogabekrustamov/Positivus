@@ -1,5 +1,5 @@
 
-import UseCaseDiv from "../SectionComponents/Services/UseCaseDiv.jsx";
+import UseCaseDiv from "../SectionComponents/UseCase/UseCaseDiv.jsx";
 import SuccesStory from "../SectionComponents/UseCase/SuccesStory.jsx";
 import AllStories from "../SectionComponents/UseCase/AllStories.jsx";
 import Testimonials from "../Components/Testimonials.jsx";

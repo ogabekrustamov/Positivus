@@ -5,7 +5,7 @@ const AskedQuestions = () => {
 
     return (
         <div>
-            <div className=" flex flex-col items-center justify-center w-[90vw] max-w-[1240px] mx-auto mb-[40px]">
+            <div className=" flex flex-col items-center justify-center w-[90vw] max-w-[1240px] mt-[60px] mx-auto mb-[40px]">
 
                 <div data-aos="fade-up" className="flex max-lg:justify-center w-[90vw] max-w-[1240px]  ">
                 <span

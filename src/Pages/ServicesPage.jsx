@@ -1,10 +1,10 @@
 
 import Marketing from "../SectionComponents/Services/Marketing.jsx";
 import Process from "../SectionComponents/Services/Process.jsx";
-import UseCases from "../SectionComponents/Services/UseCases.jsx";
+import UseCases from "../SectionComponents/UseCase/UseCases.jsx";
 
 import OtherService from "../SectionComponents/Services/OtherService.jsx";
-import SearchRanking from "../SectionComponents/UseCase/SearchRanking.jsx";
+import SearchRanking from "../SectionComponents/Services/SearchRanking.jsx";
 
 
 // ✅ To‘g‘risi: default export qilish

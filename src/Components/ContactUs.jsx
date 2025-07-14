@@ -4,7 +4,7 @@ import React from "react";
 const ContactUs = () => {
 
     return (
-        <div className="flex w-[90vw] max-[1240px] flex-col  mt-[40px] ">
+        <div className="flex w-[90vw] max-w-[1240px] mx-auto flex-col  mt-[40px] ">
             <div data-aos="fade-up" className="flex max-w-[1240px] max-lg:justify-center max-sm:justify-center  ">
                 <span
                     className="bg-[rgb(207,255,113)] text-[30px]  h-[51px] flex justify-center font-[500] mr-5 max-sm:text-[17px]  max-sm:h-[45px] max-sm:items-center"><h1>Contact Us</h1></span>
@@ -14,7 +14,7 @@ const ContactUs = () => {
                 </div>
             </div>
 
-            <div data-aos="fade-up" className=" mx-auto max-w-full h-[773px] bg-[rgb(243,243,243)] rounded-[45px] pl-[100px] pt-[60px] p-[40px] mt-[40px] flex items-center max-sm:h-[670px]  max-lg:p-[70px]  max-sm:p-[40px]">
+            <div data-aos="fade-up" className="  w-full h-[773px] bg-[rgb(243,243,243)] rounded-[45px] pl-[100px] pt-[60px] p-[40px] mt-[40px] flex items-center max-sm:h-[670px]  max-lg:p-[70px]  max-sm:p-[40px]">
                 <div className="">
                     <form action="" method="GET">
 
