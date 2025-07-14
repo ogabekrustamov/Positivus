@@ -10,6 +10,7 @@ import './App.css';
 import Navbar from './Components/Navbar.jsx';
 // import Footer from './Components/Footer.jsx';
 import ScrollToTop from './Components/ScrollToTop.jsx';
+import SmoothScroll from './Components/SmoothScroll.jsx';
 
 import Hero from './Components/Hero.jsx';
 import Services from "./Components/Services.jsx";
@@ -43,6 +44,7 @@ const App = () => {
 
     return (
         <main className="App">
+            <SmoothScroll />
             <Navbar />
             <ScrollToTop />
 
