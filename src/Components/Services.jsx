@@ -51,7 +51,7 @@ const  Services = () => {
                     </div>
                 </div>
 
-                <div data-aos="fade-up" className="w-full h-[310px] flex gap-[5vw] bg-black rounded-[45px]  border-[1px] border-b-6 p-[50px]  max-sm:h-[220px] max-sm:p-[20px] max-sm:rounded-[30px] transition-all ease-in-out duration-300 hover:scale-105">
+                <div data-aos="fade-up" className="w-full h-[310px] flex gap-[5vw] bg-[rgb(31,32,39)] rounded-[45px]  border-[1px] border-b-6 p-[50px]  max-sm:h-[220px] max-sm:p-[20px] max-sm:rounded-[30px] transition-all ease-in-out duration-300 hover:scale-105">
                     <div className=" w-[400px]">
                         <span className="bg-[rgb(243,243,243)]  rounded-[5px] text-[25px] leading-tight max-sm:text-[23px]">Social Media</span><br/>
                         <span className="bg-[rgb(243,243,243)]  rounded-[5px] text-[25px] leading-tight max-sm:text-[23px]">Marketing</span>
@@ -93,7 +93,7 @@ const  Services = () => {
                     </div>
                 </div>
 
-                <div data-aos="fade-up" className=" w-full h-[310px] flex gap-[5vw] bg-black rounded-[45px]  border-[1px] border-b-6 p-[50px]  max-sm:h-[220px] max-sm:p-[20px] max-sm:rounded-[30px] transition-all ease-in-out duration-300 hover:scale-105">
+                <div data-aos="fade-up" className=" w-full h-[310px] flex gap-[5vw] bg-[rgb(31,32,39)] rounded-[45px]  border-[1px] border-b-6 p-[50px]  max-sm:h-[220px] max-sm:p-[20px] max-sm:rounded-[30px] transition-all ease-in-out duration-300 hover:scale-105">
                     <div className=" w-[400px]">
                         <span className="bg-[rgb(207,255,113)]  rounded-[5px] text-[25px] leading-tight max-sm:text-[23px]">Analytics and</span><br/>
                         <span className="bg-[rgb(207,255,113)]  rounded-[5px] text-[25px] leading-tight max-sm:text-[23px]">Tracking</span>
@@ -111,7 +111,7 @@ const  Services = () => {
                     <div className="w-[500px]  inline-flex flex-col gap-[30px] justify-center h-full ml-[60px] max-sm:ml-[35px] max-sm:w-[300px] max-sm:gap-[15px]">
                         <h1 className="text-[25px] max-sm:text-[18px]">Let’s make things happen</h1>
                         <p className="text-[14px]">Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
-                        <button className="w-[288px] h-[68px] bg-black text-white rounded-[14px] max-sm:text-[14px] max-sm:w-[200px] max-sm:h-[48px]">Get your free proposal</button>
+                        <button className="w-[288px] h-[68px] bg-[rgb(31,32,39)] text-white rounded-[14px] max-sm:text-[14px] max-sm:w-[200px] max-sm:h-[48px]">Get your free proposal</button>
                     </div>
                     <div className="h-full float-right inline-flex items-center max-lg:hidden">
                         <img src="/Image/star.svg" className="w-[500px] h-[550px]" alt="salom"/>
@@ -124,7 +124,7 @@ const  Services = () => {
                 <div className="max-w-[30vw]  inline-flex flex-col gap-[30px] justify-center h-full ml-[60px]">
                     <h1 className="text-[25px]">Let’s make things happen</h1>
                     <p>Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
-                    <button className="w-[288px] h-[68px] bg-black text-white rounded-[14px]">Get your free proposal</button>
+                    <button className="w-[288px] h-[68px] bg-[rgb(31,32,39)] text-white rounded-[14px]">Get your free proposal</button>
                 </div>
                 <div className="h-full float-right inline-flex items-center max-lg:hidden">
                     <img src="/Image/star.svg" className="max-w-[40vw] " alt="salom"/>

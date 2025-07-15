@@ -7,7 +7,7 @@ const Process = () => {
 
     return (
         <div className="mt-[60px]">
-            <div className="w-[90vw] max-w-[1240px] mx-auto max-h-[550px]  flex bg-[rgb(31,32,39)]  max-lg:gap-[30px] max-lg:flex-col   rounded-[45px] p-[60px]">
+            <div className="w-[90vw] max-w-[1240px] mx-auto max-h-[650px]  flex bg-[rgb(31,32,39)]  max-lg:gap-[30px] max-lg:flex-col   rounded-[45px] p-[60px]">
                 <div className="w-[30%] max-lg:w-full h-full flex flex-col">
                         <div className="flex  gap-[20px]">
                             <img src="/Image/greenicon.svg" alt="Green Icon" />
@@ -19,7 +19,7 @@ const Process = () => {
 
                 </div>
                 <div className="w-[70%] max-lg:w-full flex gap-[30px] flex-col">
-                    <p className={`text-white`}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolorum eveniet excepturi ipsam laboriosam officia, porro quasi quidem voluptatem voluptatum! Ad at aut consectetur consequatur consequuntur corporis debitis et excepturi facilis illum, inventore laboriosam minima natus numquam provident qui quibusdam quos reiciendis repellat, sed tenetur, totam ut veniam vero voluptas.</p>
+                    <p className={`text-white `}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolorum eveniet excepturi ipsam laboriosam officia, porro quasi quidem voluptatem voluptatum! Ad at aut consectetur consequatur consequuntur corporis debitis et excepturi facilis illum, inventore laboriosam minima natus numquam provident qui quibusdam quos reiciendis repellat, sed tenetur, totam ut veniam vero voluptas.</p>
                     <button className={`w-full h-[60px] bg-white hover:bg-[rgb(207,255,113)]  rounded-[14px] flex justify-center items-center`}>Boost My Rankings</button>
                 </div>
             </div>
@@ -43,16 +43,14 @@ const Process = () => {
                             </div>
                             <div className="w-[85%] text-black h-full flex justify-center items-center">
                                 <div>
-                                    <h4 className="">Lorem ipsum. <br/></h4>
-                                    <h4 className="text-[1.4vw] max-lg:text-[16px]">
+                                    <h4 className="text-[25px] font-semibold">Website Audit & Analysis <br/></h4>
+                                    <h4 className="text-[16px] max-lg:text-[16px]">
 
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem magni quas ratione. Corporis perferendis quaerat sit tempora temporibus tenetur velit?
-
+                                        We begin by conducting a comprehensive audit to identify areas for improvement, including technical issues, content quality, and keyword opportunities.
                                     </h4>
                                 </div>
                             </div>
                         </div>
-
                         <div className="w-full flex max-h-[400px] max-lg:max-h-[400px] bg-[rgb(243,243,243)] rounded-[14px] p-[20px]">
                             <div className="w-[130px] h-full flex justify-center items-center">
                                 <div className="w-[88px] max-sm:w-[60px] max-sm:h-[60px] flex items-center justify-center bg-cover h-[88px] bg-no-repeat transition-all duration-700 ease-out transform"  style={{ backgroundImage: "url('/Image/Icon.svg')" }}>
@@ -60,16 +58,14 @@ const Process = () => {
                             </div>
                             <div className="w-[85%] text-black h-full flex justify-center items-center">
                                 <div>
-                                    <h4 className="">Lorem ipsum. <br/></h4>
-                                    <h4 className="text-[1.4vw] max-lg:text-[16px]">
+                                    <h4 className="text-[25px] font-semibold">Keyword Research & Strategy <br/></h4>
+                                    <h4 className="text-[16px] max-lg:text-[16px]">
 
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem magni quas ratione. Corporis perferendis quaerat sit tempora temporibus tenetur velit?
-
+                                        Our team researches the most relevant and high-impact keywords for your business, ensuring that we target terms that drive qualified traffic.
                                     </h4>
                                 </div>
                             </div>
                         </div>
-
                         <div className="w-full flex max-h-[400px] max-lg:max-h-[400px] bg-[rgb(243,243,243)] rounded-[14px] p-[20px]">
                             <div className="w-[130px] h-full flex justify-center items-center">
                                 <div className="w-[88px] max-sm:w-[60px] max-sm:h-[60px] flex items-center justify-center bg-cover h-[88px] bg-no-repeat transition-all duration-700 ease-out transform"  style={{ backgroundImage: "url('/Image/Icon.svg')" }}>
@@ -77,16 +73,14 @@ const Process = () => {
                             </div>
                             <div className="w-[85%] text-black h-full flex justify-center items-center">
                                 <div>
-                                    <h4 className="">Lorem ipsum. <br/></h4>
-                                    <h4 className="text-[1.4vw] max-lg:text-[16px]">
+                                    <h4 className="text-[25px] font-semibold">On-Page Optimization <br/></h4>
+                                    <h4 className="text-[16px] max-lg:text-[16px]">
 
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem magni quas ratione. Corporis perferendis quaerat sit tempora temporibus tenetur velit?
-
+                                        We optimize your website’s structure, meta tags, and content to make it search engine-friendly, improving your visibility and relevance.
                                     </h4>
                                 </div>
                             </div>
                         </div>
-
                         <div className="w-full flex max-h-[400px] max-lg:max-h-[400px] bg-[rgb(243,243,243)] rounded-[14px] p-[20px]">
                             <div className="w-[130px] h-full flex justify-center items-center">
                                 <div className="w-[88px] max-sm:w-[60px] max-sm:h-[60px] flex items-center justify-center bg-cover h-[88px] bg-no-repeat transition-all duration-700 ease-out transform"  style={{ backgroundImage: "url('/Image/Icon.svg')" }}>
@@ -94,16 +88,14 @@ const Process = () => {
                             </div>
                             <div className="w-[85%] text-black h-full flex justify-center items-center">
                                 <div>
-                                    <h4 className="">Lorem ipsum. <br/></h4>
-                                    <h4 className="text-[1.4vw] max-lg:text-[16px]">
+                                    <h4 className="text-[25px] font-semibold">Content Creation & Optimization <br/></h4>
+                                    <h4 className="text-[16px] max-lg:text-[16px]">
 
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem magni quas ratione. Corporis perferendis quaerat sit tempora temporibus tenetur velit?
-
+                                        High-quality content is key to SEO. We create or refine content that engages your audience while aligning with search engine algorithms.
                                     </h4>
                                 </div>
                             </div>
                         </div>
-
                         <div className="w-full flex max-h-[400px] max-lg:max-h-[400px] bg-[rgb(243,243,243)] rounded-[14px] p-[20px]">
                             <div className="w-[130px] h-full flex justify-center items-center">
                                 <div className="w-[88px] max-sm:w-[60px] max-sm:h-[60px] flex items-center justify-center bg-cover h-[88px] bg-no-repeat transition-all duration-700 ease-out transform"  style={{ backgroundImage: "url('/Image/Icon.svg')" }}>
@@ -111,16 +103,14 @@ const Process = () => {
                             </div>
                             <div className="w-[85%] text-black h-full flex justify-center items-center">
                                 <div>
-                                    <h4 className="">Lorem ipsum. <br/></h4>
-                                    <h4 className="text-[1.4vw] max-lg:text-[16px]">
+                                    <h4 className="text-[25px] font-semibold">Link Building<br/></h4>
+                                    <h4 className="text-[16px] max-lg:text-[16px]">
 
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem magni quas ratione. Corporis perferendis quaerat sit tempora temporibus tenetur velit?
-
+                                        We develop a link-building strategy to acquire authoritative, relevant backlinks that boost your domain authority and search rankings.
                                     </h4>
                                 </div>
                             </div>
                         </div>
-
                         <div className="w-full flex max-h-[400px] max-lg:max-h-[400px] bg-[rgb(243,243,243)] rounded-[14px] p-[20px]">
                             <div className="w-[130px] h-full flex justify-center items-center">
                                 <div className="w-[88px] max-sm:w-[60px] max-sm:h-[60px] flex items-center justify-center bg-cover h-[88px] bg-no-repeat transition-all duration-700 ease-out transform"  style={{ backgroundImage: "url('/Image/Icon.svg')" }}>
@@ -128,15 +118,15 @@ const Process = () => {
                             </div>
                             <div className="w-[85%] text-black h-full flex justify-center items-center">
                                 <div>
-                                    <h4 className="">Lorem ipsum. <br/></h4>
-                                    <h4 className="text-[1.4vw] max-lg:text-[16px]">
+                                    <h4 className="text-[25px] font-semibold">Monitoring & Reporting <br/></h4>
+                                    <h4 className="text-[16px] max-lg:text-[16px]">
 
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem magni quas ratione. Corporis perferendis quaerat sit tempora temporibus tenetur velit?
-
+                                        We continuously monitor performance, track rankings, and provide detailed reports, making data-driven adjustments to maintain and improve your results.
                                     </h4>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
 

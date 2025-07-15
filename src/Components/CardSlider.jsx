@@ -31,7 +31,7 @@ const CardSlider = () => {
             >
                 {cards.map((card) => (
                     <SwiperSlide key={card.id}>
-                        <div className="bg-black text-white w-full h-[310px] max-sm:h-[220px] max-sm:rounded-[30px] rounded-[45px] shadow-lg p-6 flex flex-col justify-center max-sm: items-center text-start text-green ">
+                        <div className="bg-[rgb(31,32,39)] text-white w-full h-[310px] max-sm:h-[220px] max-sm:rounded-[30px] rounded-[45px] shadow-lg p-6 flex flex-col justify-center max-sm: items-center text-start text-green ">
                             <h3 className="text-xl font-semibold hidden">{card.title}</h3>
                             <p className="text-gray-300 text-[16px] max-sm:text-[14px] max-sm:w-[300px] mt-2 w-[450px] leading-[28px]">{card.description}</p>
                         </div>

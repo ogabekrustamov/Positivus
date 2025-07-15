@@ -70,7 +70,7 @@ const BlogText = () => {
                             but generates<span className={`text-[28px] ml-[15px] font-semibold`}>3x as many leads</span>
                         </div>
                     </div>
-                    <div className={`col-start-4 col-end-6 border-[1px] rounded-[25px] text-white bg-[black] border-black p-[25px]`}>
+                    <div className={`col-start-4 col-end-6 border-[1px] rounded-[25px] text-white bg-[rgb(31,32,39)] border-black p-[25px]`}>
                         <div className={`text-[20px]`}>Organic search drives</div>
                         <div className={`text-[28px]`}> <span className={`text-[rgb(207,255,113)]`}>53% </span>of all website traffic,</div>
                         <div className={`text-[20px]`}>making it the largest single source of traffic.</div>
