@@ -1,4 +1,4 @@
-import greenicon from "../../../public/Image/greenicon.svg";
+// import greenicon from "../../../public/Image/greenicon.svg";
 // import Icon from "/src/assets/Icon.svg";
 
 import React from "react";
@@ -10,7 +10,7 @@ const Process = () => {
             <div className="w-[90vw] max-w-[1240px] mx-auto max-h-[550px]  flex bg-[rgb(31,32,39)]  max-lg:gap-[30px] max-lg:flex-col   rounded-[45px] p-[60px]">
                 <div className="w-[30%] max-lg:w-full h-full flex flex-col">
                         <div className="flex  gap-[20px]">
-                            <img src={greenicon} alt="" className="w-[35px] "/>
+                            <img src="/Image/greenicon.svg" alt="Green Icon" />
                             <div className={``}>
                                 <span className="bg-[rgb(207,255,113)]  rounded-[5px] text-[28px] leading-tight max-sm:text-[23px]">Search engine </span>
                                 <span className="bg-[rgb(207,255,113)]  rounded-[5px] text-[28px] leading-tight max-sm:text-[23px]">optimization</span>

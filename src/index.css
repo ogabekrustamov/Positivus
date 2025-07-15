@@ -1,12 +1,19 @@
 @import "tailwindcss";
 
-body{
+/*body{*/
+/*    margin: 0;*/
+/*    display: flex;*/
+/*    justify-content:center;*/
+/*    font-family: 'Space Grotesk', sans-serif;*/
+/*}*/
+/*!* styles.css yoki tailwind.config.css yoki index.css *!*/
+
+body {
     margin: 0;
-    display: flex;
-    justify-content: center;
     font-family: 'Space Grotesk', sans-serif;
+    /* display: flex; justify-content: center;  ❌ BU QISMNI OLIB TASHLA */
 }
-/* styles.css yoki tailwind.config.css yoki index.css */
+
 
 .custom-swiper .swiper-button-next,
 .custom-swiper .swiper-button-prev {

@@ -8,7 +8,7 @@ import 'aos/dist/aos.css';           // ✅ AOS CSS import
 
 import './App.css';
 import Navbar from './Components/Navbar.jsx';
-// import Footer from './Components/Footer.jsx';
+import Footer from './Components/Footer.jsx';
 import ScrollToTop from './Components/ScrollToTop.jsx';
 import SmoothScroll from './Components/SmoothScroll.jsx';
 
@@ -72,7 +72,7 @@ const App = () => {
                 <Route path="/blog" element={<BlogPage />} />
             </Routes>
 
-            {/*<Footer />*/}
+            <Footer />
         </main>
     );
 };

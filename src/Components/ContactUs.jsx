@@ -7,7 +7,7 @@ const ContactUs = () => {
         <div className="flex w-[90vw] max-w-[1240px] mx-auto flex-col  mt-[40px] ">
             <div data-aos="fade-up" className="flex max-w-[1240px] max-lg:justify-center max-sm:justify-center  ">
                 <span
-                    className="bg-[rgb(207,255,113)] text-[30px]  h-[51px] flex justify-center font-[500] mr-5 max-sm:text-[17px]  max-sm:h-[45px] max-sm:items-center"><h1>Contact Us</h1></span>
+                    className="bg-[rgb(207,255,113)] text-[30px]  h-[51px] flex justify-center font-[500] mr-5 max-sm:text-[17px] rounded-[7px] px-[3px] max-sm:h-[45px] max-sm:items-center"><h1>Contact Us</h1></span>
                 <div
                     className=" h-[46px] w-[500px] max-sm:w-[250px] max-sm:h-[80px] max-sm:text-[14px] transition-all duration-700 ease-out transform">
                     Connect with Us: Let's Discuss Your <br/> Digital Marketing Needs
@@ -43,17 +43,17 @@ const ContactUs = () => {
 
                         <label htmlFor="name" className="block mb-[10px] ">Name</label>
                         <input type="text" placeholder="Name" id="name"
-                               className="w-[44vw] max-w-[556px] h-[59px] rounded-[14px] max-sm:w-[320px]  max-sm:h-[50px] border-black border-[1px] p-[20px] mb-[25px]"/>
+                               className="w-[44vw] max-w-[556px] h-[59px] rounded-[14px] max-sm:w-[320px] bg-[white] max-sm:h-[50px] border-black border-[1px] p-[20px] mb-[25px]"/>
 
                         <label htmlFor="email" className="block mb-[10px]">Email*</label>
                         <input type="text" placeholder="Email" id="email"
-                               className="w-[44vw] max-w-[556px] h-[59px] rounded-[14px] border-black border-[1px] p-[20px] mb-[25px] max-sm:w-[320px]  max-sm:h-[50px]"/>
+                               className="w-[44vw] max-w-[556px] h-[59px] rounded-[14px] border-black bg-[white] border-[1px] p-[20px] mb-[25px] max-sm:w-[320px]  max-sm:h-[50px]"/>
 
                         <label htmlFor="message" className="block mb-[10px]">Message*</label>
                         <textarea
                             id="message"
                             placeholder="Message"
-                            className="w-[44vw] max-w-[556px] h-[190px] rounded-[14px] text-left max-sm:w-[320px]  border-black border-[1px] p-[20px] mb-[25px] resize-none"
+                            className="w-[44vw] max-w-[556px] h-[190px] rounded-[14px] text-left max-sm:w-[320px] bg-[white]  border-black border-[1px] p-[20px] mb-[25px] resize-none"
                         ></textarea>
 
                         <button

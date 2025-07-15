@@ -29,25 +29,31 @@ const PricingCards = () => {
                                 <div className="w-8 h-8 bg-[rgb(207,255,113)] rounded-full flex items-center justify-center">
                                     <div className={`fas fa-soli fa-check`}></div>
                                 </div>
-                                <p>Website optimization</p>
+                                <p>Social media setup and management (1 platform)</p>
                             </div>
                             <div className={`flex gap-[20px] mt-[30px]`}>
                                 <div className="w-8 h-8 bg-[rgb(207,255,113)] rounded-full flex items-center justify-center">
                                     <div className={`fas fa-soli fa-check`}></div>
                                 </div>
-                                <p>Website optimization</p>
+                                <p>Monthly progress report</p>
                             </div>
                             <div className={`flex gap-[20px] mt-[30px]`}>
                                 <div className="w-8 h-8 bg-[rgb(207,255,113)] rounded-full flex items-center justify-center">
                                     <div className={`fas fa-soli fa-check`}></div>
                                 </div>
-                                <p>Website optimization</p>
+                                <p>Email support</p>
                             </div>
                             <div className={`flex gap-[20px] mt-[30px]`}>
                                 <div className="w-8 h-8 bg-[rgb(207,255,113)] rounded-full flex items-center justify-center">
                                     <div className={`fas fa-soli fa-check`}></div>
                                 </div>
-                                <p>Website optimization</p>
+                                <p>Basic competitor analysis</p>
+                            </div>
+                            <div className={`flex gap-[20px] mt-[30px]`}>
+                                <div className="w-8 h-8 bg-[rgb(207,255,113)] rounded-full flex items-center justify-center">
+                                    <div className={`fas fa-soli fa-check`}></div>
+                                </div>
+                                <p>Initial SEO audit</p>
                             </div>
                         </div>
                     </div>
@@ -68,31 +74,37 @@ const PricingCards = () => {
                                 <div className="w-8 h-8 bg-[rgb(207,255,113)] rounded-full flex items-center justify-center">
                                     <div className={`fas fa-soli fa-check text-black`}></div>
                                 </div>
-                                <p>Website optimization</p>
+                                <p>Includes all from the Basic Plan</p>
                             </div>
                             <div className={`flex gap-[20px] mt-[30px]`}>
                                 <div className="w-8 h-8 bg-[rgb(207,255,113)] rounded-full flex items-center justify-center">
                                     <div className={`fas fa-soli fa-check text-black`}></div>
                                 </div>
-                                <p>Website optimization</p>
+                                <p>Social media setup and management (up to 3 platforms)</p>
                             </div>
                             <div className={`flex gap-[20px] mt-[30px]`}>
                                 <div className="w-8 h-8 bg-[rgb(207,255,113)] rounded-full flex items-center justify-center">
                                     <div className={`fas fa-soli fa-check text-black`}></div>
                                 </div>
-                                <p>Website optimization</p>
+                                <p>PPC ad campaign management</p>
                             </div>
                             <div className={`flex gap-[20px] mt-[30px]`}>
                                 <div className="w-8 h-8 bg-[rgb(207,255,113)] rounded-full flex items-center justify-center">
                                     <div className={`fas fa-soli fa-check text-black`}></div>
                                 </div>
-                                <p>Website optimization</p>
+                                <p>Email and phone support</p>
                             </div>
                             <div className={`flex gap-[20px] mt-[30px]`}>
                                 <div className="w-8 h-8 bg-[rgb(207,255,113)] rounded-full flex items-center justify-center">
                                     <div className={`fas fa-soli fa-check text-black`}></div>
                                 </div>
-                                <p>Website optimization</p>
+                                <p>On-page SEO improvements</p>
+                            </div>
+                            <div className={`flex gap-[20px] mt-[30px]`}>
+                                <div className="w-8 h-8 bg-[rgb(207,255,113)] rounded-full flex items-center justify-center">
+                                    <div className={`fas fa-soli fa-check text-black`}></div>
+                                </div>
+                                <p>Monthly content recommendations</p>
                             </div>
                         </div>
                     </div>
@@ -109,31 +121,37 @@ const PricingCards = () => {
                                 <div className="w-8 h-8 bg-[rgb(207,255,113)] rounded-full flex items-center justify-center">
                                     <div className={`fas fa-soli fa-check`}></div>
                                 </div>
-                                <p>Website optimization</p>
+                                <p>Includes all from the Pro Plan</p>
                             </div>
                             <div className={`flex gap-[20px] mt-[30px]`}>
                                 <div className="w-8 h-8 bg-[rgb(207,255,113)] rounded-full flex items-center justify-center">
                                     <div className={`fas fa-soli fa-check`}></div>
                                 </div>
-                                <p>Website optimization</p>
+                                <p>Website design and development</p>
                             </div>
                             <div className={`flex gap-[20px] mt-[30px]`}>
                                 <div className="w-8 h-8 bg-[rgb(207,255,113)] rounded-full flex items-center justify-center">
                                     <div className={`fas fa-soli fa-check`}></div>
                                 </div>
-                                <p>Website optimization</p>
+                                <p>Comprehensive SEO strategy</p>
                             </div>
                             <div className={`flex gap-[20px] mt-[30px]`}>
                                 <div className="w-8 h-8 bg-[rgb(207,255,113)] rounded-full flex items-center justify-center">
                                     <div className={`fas fa-soli fa-check`}></div>
                                 </div>
-                                <p>Website optimization</p>
+                                <p>Social media setup and management (up to 5 platforms)</p>
                             </div>
                             <div className={`flex gap-[20px] mt-[30px]`}>
                                 <div className="w-8 h-8 bg-[rgb(207,255,113)] rounded-full flex items-center justify-center">
                                     <div className={`fas fa-soli fa-check`}></div>
                                 </div>
-                                <p>Website optimization</p>
+                                <p>Content marketing strategy and implementation</p>
+                            </div>
+                            <div className={`flex gap-[20px] mt-[30px]`}>
+                                <div className="w-8 h-8 bg-[rgb(207,255,113)] rounded-full flex items-center justify-center">
+                                    <div className={`fas fa-soli fa-check`}></div>
+                                </div>
+                                <p>In-depth analytics and reporting</p>
                             </div>
                         </div>
                     </div>
