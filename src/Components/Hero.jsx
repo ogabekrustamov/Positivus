@@ -67,7 +67,7 @@ const Hero = () => {
 
                     <button
                         className={`w-[264px] h-[68px] text-white bg-[rgb(31,32,39)] text-[20px] rounded-[14px] 
-                        ${showItems.includes("button") ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-5"} max-sm:text-[18px] max-sm:w-[250px] hover:bg-[rgb(207,255,113)] hover:text-black max-sm:h-[48px]`}
+                        ${showItems.includes("button") ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-5"} max-sm:text-[18px] max-sm:w-[250px] hover:bg-lime-300 transition-all duration-400 hover:text-black hover:scale-105 max-sm:h-[48px]`}
                     >
                         Book a consultation
                     </button>

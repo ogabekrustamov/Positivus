@@ -40,7 +40,7 @@ const Values = () => {
                         <div className="w-[250px] h-[1px] mb-[20px] max-sm:w-[350px] bg-black"></div>
                         <div className="text-[18px] max-sm:text-[16px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam esse facere minima molestiae  quos repellendus vero voluptates.</div>
                     </div>
-                    <div className="w-[50%] max-sm:w-full pl-[20px] ">
+                    <div className="w-[50%] max-sm:w-full max-lg:pl-[100px] pl-[30px] ">
                         <img src="/Image/calloboration.svg" className="w-[210px]" alt=""/>
                     </div>
                 </div>

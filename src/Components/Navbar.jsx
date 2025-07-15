@@ -61,7 +61,7 @@ const Navbar = () => {
 
                     <li className={`transition-all duration-700 ease-out transform
             ${showItems.includes("button") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}>
-                        <button className="px-4 py-2 border border-black rounded-2xl hover:bg-black hover:text-white transition">
+                        <button className="px-4 py-2 border border-black rounded-2xl hover:bg-black  hover:scale-105  duration-400  hover:text-white transition">
                             Request Quote
                         </button>
                     </li>
@@ -69,7 +69,7 @@ const Navbar = () => {
 
                 {/* ✅ Hamburger (mobile only) */}
                 <div className="lg:hidden">
-                    <button onClick={() => setMenuOpen(!menuOpen)} className="focus:outline-none">
+                    <button onClick={() => setMenuOpen(!menuOpen)} className="focus:outline-none ">
                         <svg
                             className="w-8 h-8"
                             fill="none"

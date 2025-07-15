@@ -57,7 +57,7 @@ const ContactUs = () => {
                         ></textarea>
 
                         <button
-                                className="w-[44vw] max-w-[556px] h-[68px] bg-black rounded-[14px] text-white block max-sm:w-[320px]  max-sm:h-[50px]">Send Message
+                                className="w-[44vw] max-w-[556px] h-[68px] hover:bg-lime-300 transition-all duration-400  hover:scale-105 hover:text-black bg-black rounded-[14px] text-white block max-sm:w-[320px]  max-sm:h-[50px]">Send Message
                         </button>
                     </form>
                 </div>

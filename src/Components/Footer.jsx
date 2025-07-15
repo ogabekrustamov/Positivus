@@ -61,7 +61,7 @@ const Footer = () => {
                             placeholder="Email"
                             className="flex-1 py-2 px-4 rounded-md bg-transparent border border-gray-500 text-white focus:outline-none"
                         />
-                        <button className="bg-[rgb(207,255,113)] text-black px-6 py-2 rounded-md font-medium">
+                        <button className="bg-[rgb(207,255,113)] hover:bg-white transition-transform duration-400  hover:scale-105 text-black px-6 py-2 rounded-md font-medium">
                             Subscribe to news
                         </button>
                     </div>

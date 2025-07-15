@@ -51,13 +51,13 @@ const BlogText = () => {
                     <h1 className={`text-[40px] mb-[30px] font-semibold`}>By the Numbers: Facts About PPC and Organic Marketing</h1>
                 </div>
 
-                <div className={`w-full grid grid-cols-5 grid-rows-2  gap-[20px] `}>
-                    <div className={`col-start-1 col-end-3 bg-white border-[1px] flex flex-col justify-center rounded-[25px] text-[20px] border-black p-[25px] border-b-[6px]`}>
+                <div className={`w-full grid grid-cols-5 grid-rows-2 max-lg:flex max-lg:flex-col gap-[20px] `}>
+                    <div className={`col-start-1 col-end-3  bg-white border-[1px] flex flex-col justify-center rounded-[25px] text-[20px] border-black p-[25px] border-b-[6px]`}>
                         <h1>Businesses earn an average of</h1>
                         <h1 className={`text-[28px] font-semibold `}>2$ for every 1$ spent</h1>
                         <p>on PPC advertising</p>
                     </div>
-                    <div className={`col-start-3 col-end-6 border-[1px] bg-[rgb(207,255,113)] rounded-[25px] text-[20px] flex flex-col justify-center  border-black p-[25px]`}>
+                    <div className={`col-start-3 col-end-6 border-[1px] max-lg:col-start-4 max-lg:col-end-6  bg-[rgb(207,255,113)] rounded-[25px] text-[20px] flex flex-col justify-center  border-black p-[25px]`}>
                         <h1 className={`text-[28px] font-semibold `}>41% of clicks</h1>
                         <h1>on search engines go to the top three organic results,showing the importance of ranking highly</h1>
 

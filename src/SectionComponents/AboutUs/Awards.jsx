@@ -8,23 +8,23 @@ const Awards = () => {
 
     const awards = [
         {
-            title: 'Tezkor xizmat',
-            description: 'Bizning jamoa sizga qisqa muddatda eng yaxshi yechimlarni taqdim etadi.',
+            title: 'Best Small Business Digital Marketing Agency of the Year',
+            description: 'Celebrating our success in delivering innovative strategies and measurable results for small business clients.',
             icon: award1,
         },
         {
-            title: 'Xavfsizlik',
-            description: 'Biz sizning ma’lumotlaringizni himoya qilishga katta e’tibor beramiz.',
+            title: 'Innovative Website Design',
+            description: 'Honoring our expertise in developing visually stunning, user-friendly websites that capture a brand’s essence and boost conversions.',
             icon: award2,
         },
         {
-            title: 'Mijozlarga g‘amxo‘rlik',
-            description: 'Mijozlar biz uchun doim birinchi o‘rinda turadi.',
+            title: 'Top Performing PPC Campaign of the Year',
+            description: 'Acknowledging our ability to design and execute a high-impact pay-per-click campaign that drove exceptional client results.',
             icon: award1,
         },
         {
-            title: 'Mijozlarga g‘amxo‘rlik',
-            description: 'Mijozlar biz uchun doim birinchi o‘rinda turadi.',
+            title: 'Expertise in Social Media Marketing',
+            description: 'Recognizing our exceptional skills in crafting effective social media strategies, managing accounts, and creating engaging content.',
             icon: award2,
         },
     ];
@@ -42,9 +42,9 @@ const Awards = () => {
 
 
 
-            <div className="flex w-full justify-between max-lg:items-center max-lg:w-[610px] max-lg:grid max-lg:grid-cols-2 max-lg:grid-rows-2 max-lg:gap-[40px] max-sm:w-[410px]">
+            <div className="flex w-full gap-[20px] justify-around max-lg:grid max-lg:grid-cols-2  ">
                 {awards.map((award, index) => (
-                    <AwardCard
+                    <AwardCard className={`w-full`}
 
                         key={index}
                         title={award.title}

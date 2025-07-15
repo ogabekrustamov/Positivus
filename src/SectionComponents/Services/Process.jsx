@@ -6,7 +6,7 @@ import React from "react";
 const Process = () => {
 
     return (
-        <div className="mt-[60px]">
+        <div data-aos="fade-up" className="mt-[60px]">
             <div className="w-[90vw] max-w-[1240px] mx-auto max-h-[650px]  flex bg-[rgb(31,32,39)]  max-lg:gap-[30px] max-lg:flex-col   rounded-[45px] p-[60px]">
                 <div className="w-[30%] max-lg:w-full h-full flex flex-col">
                         <div className="flex  gap-[20px]">
@@ -20,7 +20,7 @@ const Process = () => {
                 </div>
                 <div className="w-[70%] max-lg:w-full flex gap-[30px] flex-col">
                     <p className={`text-white `}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolorum eveniet excepturi ipsam laboriosam officia, porro quasi quidem voluptatem voluptatum! Ad at aut consectetur consequatur consequuntur corporis debitis et excepturi facilis illum, inventore laboriosam minima natus numquam provident qui quibusdam quos reiciendis repellat, sed tenetur, totam ut veniam vero voluptas.</p>
-                    <button className={`w-full h-[60px] bg-white hover:bg-[rgb(207,255,113)]  rounded-[14px] flex justify-center items-center`}>Boost My Rankings</button>
+                    <button className={`w-full h-[60px] bg-white hover:bg-[rgb(207,255,113)] hover:scale-105 transition-all duration-400 rounded-[14px] flex justify-center items-center`}>Boost My Rankings</button>
                 </div>
             </div>
 
@@ -36,7 +36,7 @@ const Process = () => {
                 </div>
                 <div className="w-[90vw] max-w-[1240px] mx-auto mt-[60px]">
                     <div className="flex flex-col gap-[30px]">
-                        <div className="w-full flex max-h-[400px] max-lg:max-h-[400px] bg-[rgb(243,243,243)] rounded-[14px] p-[20px]">
+                        <div  data-aos="fade-up" className="w-full flex max-h-[400px] max-lg:max-h-[400px] bg-[rgb(243,243,243)] rounded-[14px] p-[20px]">
                             <div className="w-[130px] h-full flex justify-center items-center">
                                 <div className="w-[88px] max-sm:w-[60px] max-sm:h-[60px] flex items-center justify-center bg-cover h-[88px] bg-no-repeat transition-all duration-700 ease-out transform"  style={{ backgroundImage: "url('/Image/Icon.svg')" }}>
                                 <h1 className="text-[48px] max-lg:text-[30px] text-[rgb(207,255,113)]">01</h1></div>
@@ -51,7 +51,7 @@ const Process = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-full flex max-h-[400px] max-lg:max-h-[400px] bg-[rgb(243,243,243)] rounded-[14px] p-[20px]">
+                        <div data-aos="fade-up" className="w-full flex max-h-[400px] max-lg:max-h-[400px] bg-[rgb(243,243,243)] rounded-[14px] p-[20px]">
                             <div className="w-[130px] h-full flex justify-center items-center">
                                 <div className="w-[88px] max-sm:w-[60px] max-sm:h-[60px] flex items-center justify-center bg-cover h-[88px] bg-no-repeat transition-all duration-700 ease-out transform"  style={{ backgroundImage: "url('/Image/Icon.svg')" }}>
                                     <h1 className="text-[48px] max-lg:text-[30px] text-[rgb(207,255,113)]">02</h1></div>
@@ -66,7 +66,7 @@ const Process = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-full flex max-h-[400px] max-lg:max-h-[400px] bg-[rgb(243,243,243)] rounded-[14px] p-[20px]">
+                        <div data-aos="fade-up" className="w-full flex max-h-[400px] max-lg:max-h-[400px] bg-[rgb(243,243,243)] rounded-[14px] p-[20px]">
                             <div className="w-[130px] h-full flex justify-center items-center">
                                 <div className="w-[88px] max-sm:w-[60px] max-sm:h-[60px] flex items-center justify-center bg-cover h-[88px] bg-no-repeat transition-all duration-700 ease-out transform"  style={{ backgroundImage: "url('/Image/Icon.svg')" }}>
                                     <h1 className="text-[48px] max-lg:text-[30px] text-[rgb(207,255,113)]">03</h1></div>
@@ -81,7 +81,7 @@ const Process = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-full flex max-h-[400px] max-lg:max-h-[400px] bg-[rgb(243,243,243)] rounded-[14px] p-[20px]">
+                        <div data-aos="fade-up" className="w-full flex max-h-[400px] max-lg:max-h-[400px] bg-[rgb(243,243,243)] rounded-[14px] p-[20px]">
                             <div className="w-[130px] h-full flex justify-center items-center">
                                 <div className="w-[88px] max-sm:w-[60px] max-sm:h-[60px] flex items-center justify-center bg-cover h-[88px] bg-no-repeat transition-all duration-700 ease-out transform"  style={{ backgroundImage: "url('/Image/Icon.svg')" }}>
                                     <h1 className="text-[48px] max-lg:text-[30px] text-[rgb(207,255,113)]">04</h1></div>
@@ -96,7 +96,7 @@ const Process = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-full flex max-h-[400px] max-lg:max-h-[400px] bg-[rgb(243,243,243)] rounded-[14px] p-[20px]">
+                        <div data-aos="fade-up" className="w-full flex max-h-[400px] max-lg:max-h-[400px] bg-[rgb(243,243,243)] rounded-[14px] p-[20px]">
                             <div className="w-[130px] h-full flex justify-center items-center">
                                 <div className="w-[88px] max-sm:w-[60px] max-sm:h-[60px] flex items-center justify-center bg-cover h-[88px] bg-no-repeat transition-all duration-700 ease-out transform"  style={{ backgroundImage: "url('/Image/Icon.svg')" }}>
                                     <h1 className="text-[48px] max-lg:text-[30px] text-[rgb(207,255,113)]">05</h1></div>
@@ -111,7 +111,7 @@ const Process = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-full flex max-h-[400px] max-lg:max-h-[400px] bg-[rgb(243,243,243)] rounded-[14px] p-[20px]">
+                        <div data-aos="fade-up" className="w-full flex max-h-[400px] max-lg:max-h-[400px] bg-[rgb(243,243,243)] rounded-[14px] p-[20px]">
                             <div className="w-[130px] h-full flex justify-center items-center">
                                 <div className="w-[88px] max-sm:w-[60px] max-sm:h-[60px] flex items-center justify-center bg-cover h-[88px] bg-no-repeat transition-all duration-700 ease-out transform"  style={{ backgroundImage: "url('/Image/Icon.svg')" }}>
                                     <h1 className="text-[48px] max-lg:text-[30px] text-[rgb(207,255,113)]">06</h1></div>
