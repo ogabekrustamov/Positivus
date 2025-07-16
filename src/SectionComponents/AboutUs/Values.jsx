@@ -17,7 +17,7 @@ const Values = () => {
                 </div>
             </div>
             <div className="  w-[90vw] max-w-full mx-auto grid grid-cols-2 grid-rows-2  max-lg:items-center gap-[40px] mt-[60px] max-lg:flex max-lg:flex-col  ">
-                <div data-aos="fade-up" className="w-full max-h-[510px] flex flex-col gap-[20px] border-[1px] rounded-[45px] max-sm:p-[30px] p-[45px] max-lg:order-1 ">
+                <div  className="w-full max-h-[510px] flex flex-col gap-[20px] border-[1px] rounded-[45px] max-sm:p-[30px] p-[45px] max-lg:order-1 ">
                     <div className="text-[28px] max-sm:text-[24px]">Client Succes first</div>
                     <div className="w-[250px] h-[1px]  max-sm:w-[350px]  bg-black"></div>
                     <div className="text-[18px] max-sm:text-[16px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam esse facere minima molestiae optio quod reprehenderit ullam unde. Ad consequatur cum dicta et modi, nemo provident quos repellendus vero voluptates.</div>

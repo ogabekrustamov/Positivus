@@ -7,7 +7,7 @@ const UseCaseDiv = () => {
 
 
         <div className="w-full flex justify-center px-4">
-            <div  className="w-full max-w-[1240px]  max-lg:bg-white bg-[rgb(243,243,243)] flex flex-row items-center justify-center rounded-[45px] max-sm:py-[40px] p-[5vw] gap-[4vw]
+            <div  data-aos="fade-up" className="w-full max-w-[1240px]  max-lg:bg-white bg-[rgb(243,243,243)] flex flex-row items-center justify-center rounded-[45px] max-sm:py-[40px] p-[5vw] gap-[4vw]
               max-lg:flex-col-reverse max-lg:gap-[5vw]"
             >
                 <div className="w-[40vw] max-w-[600px] flex justify-center h-auto max-sm:w-[80vw] max-lg:w-[60vw] mt-[5vh]">
