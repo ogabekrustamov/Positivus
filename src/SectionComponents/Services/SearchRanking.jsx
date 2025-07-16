@@ -4,7 +4,7 @@ const SearchRanking = () => {
 
     return (
 
-            <div data-aos="fade-up" className="bg-white flex  w-[90vw] max-w-[1240px] max-h-[900px] max-sm:h-[900px] mb-[60px] border-b-[6px] border-[1px] border-black p-[60px] gap-[30px] rounded-[45px]  mt-[60px]  max-lg:flex-col  max-sm:p-[40px]  ">
+            <div   className="bg-white flex  w-[90vw] max-w-[1240px] max-h-[900px] max-sm:h-[900px] mb-[60px] border-b-[6px] border-[1px] border-black p-[60px] gap-[30px] rounded-[45px]  mt-[60px]  max-lg:flex-col  max-sm:p-[40px]  ">
 
                 <div className="w-[60%]  flex flex-col gap-[20px] justify-center max-lg:w-full">
                     <h3 className="text-xl font-semibold mb-2 text-[30px]">Ready to Elevate Your Search Ranking</h3>

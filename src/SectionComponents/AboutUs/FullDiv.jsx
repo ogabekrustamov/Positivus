@@ -8,7 +8,7 @@ import React from 'react';
 
 const FullDiv = () => {
     return (
-        <div className="bg-[rgb(207,255,113)] flex  w-[90vw] max-w-[1240px] max-h-[750px]  border-[1px] border-black p-[70px] gap-[30px] rounded-[45px]  mt-[60px] mb-[40px]  max-lg:flex-col   ">
+        <div  className="bg-[rgb(207,255,113)] flex  w-[90vw] max-w-[1240px] max-h-[750px]  border-[1px] border-black p-[70px] gap-[30px] rounded-[45px]  mt-[60px] mb-[40px]  max-lg:flex-col   ">
 
             <div className="w-[60%] flex flex-col gap-[20px] justify-center max-lg:w-full">
                 <h3 className="text-xl font-semibold mb-2 text-[30px]">Join Our Team</h3>

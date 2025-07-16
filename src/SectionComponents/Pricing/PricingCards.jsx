@@ -5,12 +5,12 @@ const PricingCards = () => {
     return (
         <div className={``}>
             <div className={`w-[90vw] max-w-[1240px]`}>
-                <div>
+                <div  >
                     <h1 className={`text-[60px] font-semibold `}>Pricing</h1>
                     <p className={`text-[18px] `}>Elevate your Online Precense.Competetive pricing <br/> fro Exceprional results</p>
                 </div>
                 <div className={`flex justify-between mt-[60px] gap-[20px] max-lg:grid max-lg:grid-cols-2 max-sm:flex max-sm:flex-col`}>
-                    <div className={`w-[370px] max-h-[950px] border-[1px] max-lg:w-full max-sm:p-[35px] border-black rounded-[35px] flex flex-col p-[25px] border-b-[6px]`}>
+                    <div data-aos="fade-up"  className={`w-[370px] max-h-[950px] border-[1px] max-lg:w-full max-sm:p-[35px] border-black rounded-[35px] flex flex-col p-[25px] border-b-[6px]`}>
                          <div className="mb-[30px]">
                              <h3 className={`text-[25px] font-semibold`}>Basic Plan</h3>
                              <h2 className={`text-[40px] font-[600]`}>$500 <span className={`text-[16px] font-[300]`}>\month</span></h2>
@@ -57,7 +57,7 @@ const PricingCards = () => {
                             </div>
                         </div>
                     </div>
-                    <div className={`w-[370px] max-h-[950px] border-[1px] max-lg:w-full max-sm:p-[35px] bg-[rgb(25,26,35)] border-[rgb(25,26,35)] text-white rounded-[35px] flex flex-col p-[25px] border-b-[6px]`}>
+                    <div data-aos="fade-up"  className={`w-[370px] max-h-[950px] border-[1px] max-lg:w-full max-sm:p-[35px] bg-[rgb(25,26,35)] border-[rgb(25,26,35)] text-white rounded-[35px] flex flex-col p-[25px] border-b-[6px]`}>
                         <div className="mb-[30px]  flex">
 
                             <div>
@@ -108,7 +108,7 @@ const PricingCards = () => {
                             </div>
                         </div>
                     </div>
-                    <div className={`w-[370px] max-h-[950px] border-[1px] max-lg:w-full max-sm:p-[35px] border-black rounded-[35px] flex flex-col p-[25px] border-b-[6px]`}>
+                    <div data-aos="fade-up"  className={`w-[370px] max-h-[950px] border-[1px] max-lg:w-full max-sm:p-[35px] border-black rounded-[35px] flex flex-col p-[25px] border-b-[6px]`}>
                         <div className="mb-[30px]">
                             <h3 className={`text-[25px] font-semibold`}>Basic Plan</h3>
                             <h2 className={`text-[40px] font-[600]`}>$2000 <span className={`text-[16px] font-[300]`}>\month</span></h2>

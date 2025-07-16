@@ -21,15 +21,15 @@ const  OtherService = () => {
 
     useEffect(() => {
         AOS.init({
-            duration: 1000, // har bir animatsiya davomiyligi (ms)
-            once: true, // faqat bir marta animate qiladi
+            duration: 1000,
+            once: true,
         });
     }, []);
 
     return (
-        <div data-aos="fade-up" className=" w-[90vw] max-w-[1240px] mx-auto  max-h-[2150px]  ">
-            <div data-aos="fade-up"  className="flex w-[90vw] max-w-[1240px] mx-auto  max-lg:justify-center ">
-                <span className="bg-[rgb(207,255,113)] text-[30px] w-[178px] h-[51px] flex justify-center font-[500] mr-5 max-sm:text-[17px] max-sm:w-[85px] max-sm:h-[45px] max-sm:items-center"><h1>Services</h1></span>
+        <div  className=" w-[90vw] max-w-[1240px] mx-auto  max-h-[2150px]  ">
+            <div   className="flex w-[90vw] max-w-[1240px] mx-auto  max-lg:justify-center ">
+                <span className="  flex justify-center font-[500] mr-5 max-sm:text-[17px] max-sm:w-[85px] max-sm:h-[45px] max-sm:items-center"><h1 className={`bg-[rgb(207,255,113)] text-[30px] rounded-[5px] px-[6px]`}>Our other Services</h1></span>
                 <div className="w-[580px] h-[46px] max-lg:w-[540px] max-sm:w-[320px] max-sm:h-[80px] max-sm:text-[14px] transition-all duration-700 ease-out transform">At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</div>
             </div>
             <div  className="   grid grid-rows-3 grid-cols-2 gap-[40px] pt-[40px] max-lg:flex max-lg:flex-col max-lg:items-center ">

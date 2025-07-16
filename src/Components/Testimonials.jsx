@@ -8,7 +8,7 @@ const Testimonials = () => {
 
 
             <div data-aos="fade-up"  className="flex w-full mx-auto  max-lg:justify-center ">
-                <span className="bg-[rgb(207,255,113)] text-[30px]  h-[51px] flex justify-center font-[500] mr-5 max-sm:text-[17px] max-sm:w-[85px] max-sm:h-[45px] rounded-[7px]  max-sm:items-center"><h1>Testimonials</h1></span>
+                <span className="bg-[rgb(207,255,113)] text-[30px]   flex justify-center font-[500] mr-5 max-sm:text-[17px] max-sm:w-[85px] max-sm:h-[45px] rounded-[7px]  max-sm:items-center"><h1>Testimonials</h1></span>
                 <div className="w-[580px] h-[46px] max-lg:w-[540px] max-sm:w-[320px] max-sm:h-[80px] max-sm:text-[14px] transition-all duration-700 ease-out transform">Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services</div>
             </div>
 

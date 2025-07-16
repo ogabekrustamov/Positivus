@@ -6,8 +6,8 @@ import React from "react";
 const Process = () => {
 
     return (
-        <div data-aos="fade-up" className="mt-[60px]">
-            <div className="w-[90vw] max-w-[1240px] mx-auto max-h-[650px]  flex bg-[rgb(31,32,39)]  max-lg:gap-[30px] max-lg:flex-col   rounded-[45px] p-[60px]">
+        <div  className="mt-[60px]">
+            <div  className="w-[90vw] max-w-[1240px] mx-auto max-h-[650px]  flex bg-[rgb(31,32,39)]  max-lg:gap-[30px] max-lg:flex-col   rounded-[45px] p-[60px]">
                 <div className="w-[30%] max-lg:w-full h-full flex flex-col">
                         <div className="flex  gap-[20px]">
                             <img src="/Image/greenicon.svg" alt="Green Icon" />

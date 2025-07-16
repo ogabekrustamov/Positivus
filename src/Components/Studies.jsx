@@ -1,20 +1,20 @@
 
 import CardSlider from "./CardSlider.jsx";
+import React from "react";
 
 const Studies = () => {
 
 
     return (
-        <div className="max-lg:flex max-lg:flex-col max-lg:items-center mb-[40px]">
-            <div data-aos="fade-up" className="flex max-lg:justify-center w-[90vw] max-w-[1240px] mx-auto max-sm:justify-center ">
+        <div className="max-lg:flex  max-lg:flex-col max-lg:items-center mb-[40px]">
+            <div  className="flex  max-lg:hidden max-lg:justify-center w-[90vw] max-w-[1240px] mx-auto max-sm:justify-center ">
                 <span
-                    className="bg-[rgb(207,255,113)] text-[30px] rounded-[7px] h-[51px] flex justify-center font-[500] mr-5 max-sm:text-[17px] max-sm:w-[85px] max-sm:h-[45px] max-sm:items-center"><h1>Case Studies</h1></span>
+                    className=" h-[51px] flex justify-center font-[500] text-[30px] mr-5 "><h1>Case Studies</h1></span>
                 <div
                     className="w-[580px] h-[46px] max-lg:w-[540px] max-sm:w-[320px] max-sm:h-[80px] max-sm:text-[14px] transition-all duration-700 ease-out transform">At
                     Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies
                 </div>
             </div>
-
             <div data-aos="fade-up"
                 className="bg-[rgb(31,32,39)] text-white   flex flex-col md:flex-row md:divide-x md:divide-gray-500/50 gap-8 w-[90vw] max-w-[1240px] mx-auto  h-[347px]  p-[70px] rounded-[45px] mt-[60px]  justify-center items-center max-lg:hidden ">
 
@@ -53,9 +53,7 @@ const Studies = () => {
                     </a>
                 </div>
             </div>
-            <div data-aos="fade-up" className="w-[600px] max-sm:w-[410px] max-sm:h-[220px] mt-[30px]">
-                <CardSlider />
-            </div>
+
         </div>
 
 
