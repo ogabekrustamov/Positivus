@@ -12,32 +12,32 @@ const Aboutnumber = () => {
                     Meet the skilled and experienced team behind our successful digital marketing strategies
                 </div>
             </div>
-            <div className=" w-full  flex mt-[60px] flex-wrap justify-evenly max-sm:w-[410px] max-lg:w-[650px] max-lg:mt-[100px] mb-[60px]">
-                <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" className="w-[248px] max-sm:w-[200px] h-[80px] border-t-[2px] border-black flex flex-col items-center justify-center rounded-[16px]">
+            <div className=" w-full  flex mt-[60px] flex-wrap  justify-evenly max-sm:w-[410px] max-lg:w-[650px] max-lg:mt-[100px] mb-[60px]">
+                <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000"  className="w-[248px] mb-[20px] max-sm:w-[200px] h-[80px] border-t-[2px] border-black flex flex-col items-center justify-center rounded-[16px]">
                     <div>
                         <h1 className={`text-[25px] font-semibold`}>8+</h1>
                         <h4>Years of Experience</h4>
                     </div>
                 </div>
-                <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" className="w-[248px] max-sm:w-[200px] h-[80px] border-t-[2px] border-black flex flex-col items-center justify-center rounded-[16px]">
+                <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" className="w-[248px] mb-[20px] max-sm:w-[200px] h-[80px] border-t-[2px] border-black flex flex-col items-center justify-center rounded-[16px]">
                     <div>
                         <h1 className={`text-[25px] font-semibold`}>50+</h1>
                         <h4>Experts</h4>
                     </div>
                 </div>
-                <div data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" className="w-[248px] max-sm:w-[200px] h-[80px] border-t-[2px] border-black flex flex-col items-center justify-center rounded-[16px]">
+                <div data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" className="w-[248px] mb-[20px] max-sm:w-[200px] h-[80px] border-t-[2px] border-black flex flex-col items-center justify-center rounded-[16px]">
                     <div>
                         <h1 className={`text-[25px] font-semibold`}>100+</h1>
                         <h4>Succesful Campaigns</h4>
                     </div>
                 </div>
-                <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" className="w-[248px] max-sm:w-[200px] h-[80px] border-t-[2px] border-black flex flex-col items-center justify-center rounded-[16px]">
+                <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" className="w-[248px] mb-[20px] max-sm:w-[200px] h-[80px] border-t-[2px] border-black flex flex-col items-center justify-center rounded-[16px]">
                     <div>
                         <h1 className={`text-[25px] font-semibold`}>20+</h1>
                         <h4>Industry Awards</h4>
                     </div>
                 </div>
-                <div data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000" className="w-[248px] max-sm:w-[200px] h-[80px] border-t-[2px] border-black flex flex-col items-center justify-center rounded-[16px]">
+                <div data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000" className="w-[248px] mb-[20px] max-sm:w-[200px] h-[80px] border-t-[2px] border-black flex flex-col items-center justify-center rounded-[16px]">
                     <div>
                         <h1 className={`text-[25px] font-semibold`}>500%</h1>
                         <h4>ROI for our clients</h4>

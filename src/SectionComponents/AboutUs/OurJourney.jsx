@@ -6,7 +6,7 @@ const OurJourney = () => {
 
     return (
         <div className="flex w-[90vw] max-w-[1240px] mx-auto flex-col max-lg:justify-center max-lg:items-center   max-sm:mt-[20px] mt-[60px] mb-[30px]">
-            <div  className="flex max-lg:justify-center max-sm:justify-center ">
+            <div  className="flex max-lg:justify-center ">
                 <span
                     className="bg-[rgb(207,255,113)] text-[30px]  h-[51px] flex justify-center font-[500] mr-5 max-sm:text-[17px]  max-sm:h-[45px] max-sm:items-center"><h1>Team </h1></span>
                 <div
@@ -14,11 +14,11 @@ const OurJourney = () => {
                     Meet the skilled and experienced team behind our successful digital marketing strategies
                 </div>
             </div>
-            <div className="w-[90vw] max-w-[1240px]  h-[1200px] grid grid-cols-8 grid-rows-4 gap-[40px] mt-[140px] max-sm:mt-[70px] max-lg:flex max-lg:flex-col max-sm:h-[1650px] max-lg:h-[1600px]  max-lg:items-start  max-sm:items-center" >
-                <div data-aos="fade-right"  className="text-[50px] font-bold">
+            <div className="w-[90vw] max-w-[1240px]  max-h-[1800px] grid grid-cols-8 grid-rows-4 gap-[40px] mt-[140px] max-sm:mt-[70px] max-lg:flex max-lg:flex-col  max-lg:items-start  " >
+                <div   className="text-[50px] font-bold">
                     <h1>2019</h1>
                 </div>
-                <div data-aos="fade-right" className="col-start-2 col-end-6  max-h-[600px] max-lg:w-full rounded-[30px] flex bg-black p-[20px]   pb-0">
+                <div  className="col-start-2 col-end-6  max-h-[600px] max-lg:w-full rounded-[30px] flex bg-black p-[20px]   pb-0">
                     <div className="w-[20%]  flex flex-col gap-[20px] items-center justify-start p-[30px] pb-0">
                         <img src="/Image/greenicon.svg" alt="Green Icon" />
                         <div className="w-[2px] h-[180px] bg-[rgb(207,255,113)]"></div>
@@ -28,10 +28,10 @@ const OurJourney = () => {
                         <p className="text-[18px] max-sm:text-[16px] text-white ">Positivus was founded to help business navigate world the digital and achieve onlinesucces </p>
                     </div>
                 </div>
-                <div data-aos="fade-left"  className="col-start-4  col-end-5  rounded-[30px] ">
+                <div   className="col-start-4  col-end-5  rounded-[30px] ">
                     <div className=" text-[50px] font-bold"> 2021</div>
                 </div>
-                <div data-aos="fade-left" className="col-start-5 col-end-9  rounded-[30px]  flex bg-black p-[20px] pt-0 pb-0">
+                <div  className="col-start-5 col-end-9  rounded-[30px]  flex bg-black p-[20px] pt-0 pb-0">
                     <div className="w-[20%]  flex flex-col items-center justify-start p-[30px] pt-0 pb-0">
                         <div className="w-[2px] h-[40px] bg-[rgb(207,255,113)]"></div>
                         <img src="/Image/greenicon.svg" alt="Green Icon" />
@@ -44,10 +44,10 @@ const OurJourney = () => {
                         </p>
                     </div>
                 </div>
-                <div data-aos="fade-right" className="col-start-1 col-end-2  rounded-[30px] ">
+                <div  className="col-start-1 col-end-2  rounded-[30px] ">
                     <div className="text-[50px] font-bold"> 2023</div>
                 </div>
-                <div data-aos="fade-right" className="col-start-2 col-end-6  rounded-[30px] flex bg-black p-[20px]  pt-0 pb-0">
+                <div  className="col-start-2 col-end-6  rounded-[30px] flex bg-black p-[20px]  pt-0 pb-0">
                     <div className="w-[20%]  flex flex-col  items-center justify-start p-[30px] pt-0 pb-0">
                         <div className="w-[2px] h-[40px] bg-[rgb(207,255,113)]"></div>
                         <img src="/Image/greenicon.svg" alt="Green Icon" />
@@ -58,8 +58,8 @@ const OurJourney = () => {
                         <p className="text-[18px] max-sm:text-[16px] text-white ">With over 50 experts, we continue to deliver cutting-edge solutions to help businesses thrive.</p>
                     </div>
                 </div>
-                <div data-aos="fade-left" className="col-start-4  col-end-5 rounded-[30px] text-[50px] font-bold ">2024</div>
-                <div data-aos="fade-left" className="col-start-5 col-end-9 max-h-[400px]  rounded-[30px] flex bg-black p-[20px] pt-0 pb-0 ">
+                <div  className="col-start-4  col-end-5 rounded-[30px] text-[50px] font-bold ">2024</div>
+                <div  className="col-start-5 col-end-9 max-h-[400px]  rounded-[30px] flex bg-black p-[20px] pt-0 pb-0 ">
                     <div className="w-[20%]  flex flex-col  items-center justify-start p-[30px] pt-0 pb-0">
                         <div className="w-[2px] h-[40px] bg-[rgb(207,255,113)]"></div>
                         <img src="/Image/greenicon.svg" alt="Green Icon" />
