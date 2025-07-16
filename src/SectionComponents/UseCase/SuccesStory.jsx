@@ -3,7 +3,7 @@ const SuccesStory = () => {
 
     return (
         <div className="w-full flex justify-center mt-[60px] ">
-                <div className={`max-w-[1240px] w-[90vw] min-h-[540px] max-h-[1520px] max-sm:p-[40px] flex gap-[40px] rounded-[45px] max-lg:flex max-lg:flex-col  p-[60px] bg-[rgb(31,32,39)]`}>
+                <div className={`max-w-[1240px] w-[90vw] min-h-[540px] max-h-[1550px] max-sm:p-[40px] flex gap-[40px] rounded-[45px] max-lg:flex max-lg:flex-col  p-[60px] bg-[rgb(31,32,39)]`}>
                     <div className=" w-[45vw] flex flex-col gap-[70px] max-lg:w-full  h-full bg-[rgb(31,32,39)] ">
                         <div>
                             <h1 className="text-[32px] bg-[rgb(207,255,113)] inline-block    font-semibold rounded-[10px]">Featured Succes Story</h1>

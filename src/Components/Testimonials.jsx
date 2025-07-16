@@ -4,7 +4,7 @@ import TestimonialSlider from './TestimonialSlider';
 const Testimonials = () => {
 
     return (
-        <div className=" w-[90vw] max-w-[1240px] mt-[40px] mx-auto flex flex-col max-lg:items-center">
+        <div className=" w-[90vw] max-w-[1240px] mt-[40px] mb-[60px] mx-auto flex flex-col max-lg:items-center">
 
 
             <div data-aos="fade-up"  className="flex w-full mx-auto  max-lg:justify-center ">

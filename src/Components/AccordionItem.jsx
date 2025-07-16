@@ -23,11 +23,11 @@ const AccordionItem = ({ number, title, content, isOpen, onClick }) => {
                 className="flex justify-between items-center w-full px-6 py-8 text-left"
             >
                 <div className="flex items-center gap-3">
-                    <span className="text-4xl font-bold">{number}</span>
-                    <span className="text-2xl ">{title}</span>
+                    <span className="text-4xl font-bold max-sm:text-[30px]">{number}</span>
+                    <span className="text-2xl max-sm:text-[18px] ">{title}</span>
                 </div>
                 <motion.span
-                    className="text-4xl border border-black  bg-white rounded-full w-10 h-10 flex items-center justify-center"
+                    className="text-4xl border border-black   bg-white rounded-full w-10 h-10 flex items-center justify-center"
                     animate={{ rotate: isOpen ? 180 : 0 }}
                     transition={{ duration: 0.3 }}
                 >

@@ -44,7 +44,7 @@ const  OtherService = () => {
                         </div>
                     </div>
                     <div className="   " >
-                        <img src="/Image/serch.svg" className=" w-[350px]  h-[200px] inline-block float-right ml-[70px] max-sm:w-[170px] max-sm:h-[140px] max-sm:ml-8 max-sm:mb-4" alt=""/>
+                        <img src="/Image/serch.svg" className=" w-[350px]  h-[200px] inline-block float-right ml-[70px] max-sm:w-[270px] max-sm:h-[140px] max-sm:ml-8 max-sm:mt-[20px]" alt=""/>
                     </div>
                 </div>
 
@@ -58,7 +58,7 @@ const  OtherService = () => {
                         </div>
                     </div>
                     <div className="   " >
-                        <img src="/Image/click.svg" className="w-[200px] h-[200px] inline-block float-right ml-[70px] max-sm:w-[170px] max-sm:h-[140px] max-sm:ml-8 max-sm:mb-4" alt=""/>
+                        <img src="/Image/click.svg" className="w-[200px] h-[200px] inline-block float-right ml-[200px] max-sm:w-[170px] max-sm:h-[140px] max-sm:ml-8 max-sm:mt-[20px]" alt=""/>
                     </div>
                 </div>
 
@@ -72,7 +72,7 @@ const  OtherService = () => {
                         </div>
                     </div>
                     <div className=" inline-block  " >
-                        <img src="/Image/media.svg" className="w-[230px] h-[200px] inline-block float-right ml-[70px] max-sm:w-[170px] max-sm:h-[140px] max-sm:ml-8 max-sm:mb-4" alt=""/>
+                        <img src="/Image/media.svg" className="w-[230px] h-[200px] inline-block float-right ml-[70px] max-sm:w-[270px] max-sm:h-[140px] max-sm:ml-8 max-sm:mt-[20px]" alt=""/>
                     </div>
                 </div>
 
@@ -86,7 +86,7 @@ const  OtherService = () => {
                         </div>
                     </div>
                     <div className=" inline-block  " >
-                        <img src="/Image/message.svg" className="w-[230px] h-[200px] inline-block float-right ml-[70px] max-sm:w-[170px] max-sm:h-[140px] max-sm:ml-8 max-sm:mb-4" alt=""/>
+                        <img src="/Image/message.svg" className="w-[230px] h-[200px] inline-block float-right ml-[70px] max-sm:w-[220px] max-sm:h-[140px] max-sm:ml-8 max-sm:mt-[20px]" alt=""/>
                     </div>
                 </div>
 
@@ -114,7 +114,7 @@ const  OtherService = () => {
                         </div>
                     </div>
                     <div className=" inline-block  " >
-                        <img src="/Image/statistic.svg" className="w-[230px] h-[200px] inline-block float-right ml-[70px] max-sm:w-[170px] max-sm:h-[140px] max-sm:ml-8 max-sm:mb-4" alt=""/>
+                        <img src="/Image/statistic.svg" className="w-[230px] h-[200px] inline-block float-right ml-[50px] max-sm:w-[170px] max-sm:h-[140px] max-sm:ml-8 max-sm:mt-[20px]" alt=""/>
                     </div>
                 </div>
 

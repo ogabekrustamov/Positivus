@@ -14,7 +14,7 @@ const ContactUs = () => {
                 </div>
             </div>
 
-            <div data-aos="fade-up" className="  w-full h-[773px] bg-[rgb(243,243,243)] rounded-[45px] pl-[100px] pt-[60px] p-[40px] mt-[40px] flex items-center max-sm:h-[670px]  max-lg:p-[70px]  max-sm:p-[40px]">
+            <div data-aos="fade-up" className="  w-full h-[773px] bg-[rgb(243,243,243)] rounded-[45px] pl-[100px] pt-[60px] p-[40px] mt-[40px] flex items-center justify-center max-sm:h-[670px]  max-lg:p-[70px]  max-sm:p-[40px]">
                 <div className="">
                     <form action="" method="GET">
 
